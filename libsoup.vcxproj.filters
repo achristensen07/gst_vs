@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libsoup">
+      <UniqueIdentifier>{d03108c9-bd78-4fd0-8357-a4133a42be04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libsoup\libsoup\soup-address.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-basic.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-digest.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain-basic.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain-digest.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-manager.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-auth-ntlm.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-body-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-body-output-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cache.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cache-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-client-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-connection.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-connection-auth.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-content-decoder.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-content-processor.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-content-sniffer.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-content-sniffer-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-converter-wrapper.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cookie.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-db.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-sqlite.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-text.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-date.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-directory-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-enum-types.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-filter-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-form.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-gnome-features.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-headers.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-io-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-logger.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-body.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-client-io.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-headers.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-io.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-queue.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-message-server-io.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-method.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-misc.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-multipart.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-multipart-input-stream.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-password-manager.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-password-manager-gnome.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-path-map.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-default.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-gnome.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-wrapper.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-proxy-uri-resolver.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-request.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-request-data.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-requester.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-request-file.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-request-http.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-server.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-session.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-session-async.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-session-feature.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-session-sync.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-socket.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-status.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-tld.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-uri.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-value-utils.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-version.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+    <ClCompile Include="libsoup\libsoup\soup-xmlrpc.c">
+      <Filter>libsoup</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libsoup\libsoup\soup.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-address.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-basic.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-digest.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain-basic.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain-digest.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-manager.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-auth-ntlm.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-body-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-body-output-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cache.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cache-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cache-private.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-client-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-connection.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-connection-auth.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-content-decoder.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-content-processor.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-content-sniffer.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-content-sniffer-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-converter-wrapper.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cookie.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-db.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-sqlite.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-text.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-date.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-directory-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-enum-types.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-filter-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-form.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-gnome.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-gnome-features.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-headers.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-io-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-logger.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-message.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-message-body.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-message-headers.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-message-private.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-message-queue.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-method.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-misc.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-misc-private.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-multipart.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-multipart-input-stream.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-password-manager.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-password-manager-gnome.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-path-map.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-portability.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-default.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-gnome.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-wrapper.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-proxy-uri-resolver.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-request.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-request-data.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-requester.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-request-file.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-request-http.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-server.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-session.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-session-async.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-session-feature.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-session-private.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-session-sync.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-socket.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-status.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-tld.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-tld-private.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-types.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-uri.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-value-utils.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-version.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+    <ClInclude Include="libsoup\libsoup\soup-xmlrpc.h">
+      <Filter>libsoup</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libsoup\libsoup\soup-address.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-basic.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-digest.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain-basic.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain-digest.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-domain.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-manager.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth-ntlm.c" />
+    <ClCompile Include="libsoup\libsoup\soup-auth.c" />
+    <ClCompile Include="libsoup\libsoup\soup-body-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-body-output-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cache-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cache.c" />
+    <ClCompile Include="libsoup\libsoup\soup-client-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-connection-auth.c" />
+    <ClCompile Include="libsoup\libsoup\soup-connection.c" />
+    <ClCompile Include="libsoup\libsoup\soup-content-decoder.c" />
+    <ClCompile Include="libsoup\libsoup\soup-content-processor.c" />
+    <ClCompile Include="libsoup\libsoup\soup-content-sniffer-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-content-sniffer.c" />
+    <ClCompile Include="libsoup\libsoup\soup-converter-wrapper.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-db.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-sqlite.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar-text.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cookie-jar.c" />
+    <ClCompile Include="libsoup\libsoup\soup-cookie.c" />
+    <ClCompile Include="libsoup\libsoup\soup-date.c" />
+    <ClCompile Include="libsoup\libsoup\soup-directory-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-enum-types.c" />
+    <ClCompile Include="libsoup\libsoup\soup-filter-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-form.c" />
+    <ClCompile Include="libsoup\libsoup\soup-gnome-features.c" />
+    <ClCompile Include="libsoup\libsoup\soup-headers.c" />
+    <ClCompile Include="libsoup\libsoup\soup-io-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-logger.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-body.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-client-io.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-headers.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-io.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-queue.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message-server-io.c" />
+    <ClCompile Include="libsoup\libsoup\soup-message.c" />
+    <ClCompile Include="libsoup\libsoup\soup-method.c" />
+    <ClCompile Include="libsoup\libsoup\soup-misc.c" />
+    <ClCompile Include="libsoup\libsoup\soup-multipart-input-stream.c" />
+    <ClCompile Include="libsoup\libsoup\soup-multipart.c" />
+    <ClCompile Include="libsoup\libsoup\soup-password-manager-gnome.c" />
+    <ClCompile Include="libsoup\libsoup\soup-password-manager.c" />
+    <ClCompile Include="libsoup\libsoup\soup-path-map.c" />
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-default.c" />
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-gnome.c" />
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver-wrapper.c" />
+    <ClCompile Include="libsoup\libsoup\soup-proxy-resolver.c" />
+    <ClCompile Include="libsoup\libsoup\soup-proxy-uri-resolver.c" />
+    <ClCompile Include="libsoup\libsoup\soup-request-data.c" />
+    <ClCompile Include="libsoup\libsoup\soup-request-file.c" />
+    <ClCompile Include="libsoup\libsoup\soup-request-http.c" />
+    <ClCompile Include="libsoup\libsoup\soup-request.c" />
+    <ClCompile Include="libsoup\libsoup\soup-requester.c" />
+    <ClCompile Include="libsoup\libsoup\soup-server.c" />
+    <ClCompile Include="libsoup\libsoup\soup-session-async.c" />
+    <ClCompile Include="libsoup\libsoup\soup-session-feature.c" />
+    <ClCompile Include="libsoup\libsoup\soup-session-sync.c" />
+    <ClCompile Include="libsoup\libsoup\soup-session.c" />
+    <ClCompile Include="libsoup\libsoup\soup-socket.c" />
+    <ClCompile Include="libsoup\libsoup\soup-status.c" />
+    <ClCompile Include="libsoup\libsoup\soup-tld.c" />
+    <ClCompile Include="libsoup\libsoup\soup-uri.c" />
+    <ClCompile Include="libsoup\libsoup\soup-value-utils.c" />
+    <ClCompile Include="libsoup\libsoup\soup-version.c" />
+    <ClCompile Include="libsoup\libsoup\soup-xmlrpc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libsoup\libsoup\soup-address.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-basic.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-digest.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain-basic.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain-digest.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-domain.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-manager.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth-ntlm.h" />
+    <ClInclude Include="libsoup\libsoup\soup-auth.h" />
+    <ClInclude Include="libsoup\libsoup\soup-body-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-body-output-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cache-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cache-private.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cache.h" />
+    <ClInclude Include="libsoup\libsoup\soup-client-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-connection-auth.h" />
+    <ClInclude Include="libsoup\libsoup\soup-connection.h" />
+    <ClInclude Include="libsoup\libsoup\soup-content-decoder.h" />
+    <ClInclude Include="libsoup\libsoup\soup-content-processor.h" />
+    <ClInclude Include="libsoup\libsoup\soup-content-sniffer-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-content-sniffer.h" />
+    <ClInclude Include="libsoup\libsoup\soup-converter-wrapper.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-db.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-sqlite.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar-text.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cookie-jar.h" />
+    <ClInclude Include="libsoup\libsoup\soup-cookie.h" />
+    <ClInclude Include="libsoup\libsoup\soup-date.h" />
+    <ClInclude Include="libsoup\libsoup\soup-directory-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-enum-types.h" />
+    <ClInclude Include="libsoup\libsoup\soup-filter-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-form.h" />
+    <ClInclude Include="libsoup\libsoup\soup-gnome-features.h" />
+    <ClInclude Include="libsoup\libsoup\soup-gnome.h" />
+    <ClInclude Include="libsoup\libsoup\soup-headers.h" />
+    <ClInclude Include="libsoup\libsoup\soup-io-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-logger.h" />
+    <ClInclude Include="libsoup\libsoup\soup-message-body.h" />
+    <ClInclude Include="libsoup\libsoup\soup-message-headers.h" />
+    <ClInclude Include="libsoup\libsoup\soup-message-private.h" />
+    <ClInclude Include="libsoup\libsoup\soup-message-queue.h" />
+    <ClInclude Include="libsoup\libsoup\soup-message.h" />
+    <ClInclude Include="libsoup\libsoup\soup-method.h" />
+    <ClInclude Include="libsoup\libsoup\soup-misc-private.h" />
+    <ClInclude Include="libsoup\libsoup\soup-misc.h" />
+    <ClInclude Include="libsoup\libsoup\soup-multipart-input-stream.h" />
+    <ClInclude Include="libsoup\libsoup\soup-multipart.h" />
+    <ClInclude Include="libsoup\libsoup\soup-password-manager-gnome.h" />
+    <ClInclude Include="libsoup\libsoup\soup-password-manager.h" />
+    <ClInclude Include="libsoup\libsoup\soup-path-map.h" />
+    <ClInclude Include="libsoup\libsoup\soup-portability.h" />
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-default.h" />
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-gnome.h" />
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver-wrapper.h" />
+    <ClInclude Include="libsoup\libsoup\soup-proxy-resolver.h" />
+    <ClInclude Include="libsoup\libsoup\soup-proxy-uri-resolver.h" />
+    <ClInclude Include="libsoup\libsoup\soup-request-data.h" />
+    <ClInclude Include="libsoup\libsoup\soup-request-file.h" />
+    <ClInclude Include="libsoup\libsoup\soup-request-http.h" />
+    <ClInclude Include="libsoup\libsoup\soup-request.h" />
+    <ClInclude Include="libsoup\libsoup\soup-requester.h" />
+    <ClInclude Include="libsoup\libsoup\soup-server.h" />
+    <ClInclude Include="libsoup\libsoup\soup-session-async.h" />
+    <ClInclude Include="libsoup\libsoup\soup-session-feature.h" />
+    <ClInclude Include="libsoup\libsoup\soup-session-private.h" />
+    <ClInclude Include="libsoup\libsoup\soup-session-sync.h" />
+    <ClInclude Include="libsoup\libsoup\soup-session.h" />
+    <ClInclude Include="libsoup\libsoup\soup-socket.h" />
+    <ClInclude Include="libsoup\libsoup\soup-status.h" />
+    <ClInclude Include="libsoup\libsoup\soup-tld-private.h" />
+    <ClInclude Include="libsoup\libsoup\soup-tld.h" />
+    <ClInclude Include="libsoup\libsoup\soup-types.h" />
+    <ClInclude Include="libsoup\libsoup\soup-uri.h" />
+    <ClInclude Include="libsoup\libsoup\soup-value-utils.h" />
+    <ClInclude Include="libsoup\libsoup\soup-version.h" />
+    <ClInclude Include="libsoup\libsoup\soup-xmlrpc.h" />
+    <ClInclude Include="libsoup\libsoup\soup.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9376B58-246D-42F6-A109-EEEAAEFCD359}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libsoup</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)includes_from_wincairo;$(ProjectDir)proxy-libintl-dev\include;$(ProjectDir)libsoup;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)includes_from_wincairo;$(ProjectDir)proxy-libintl-dev\include;$(ProjectDir)libsoup;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glib", "glib.vcxproj", "{4EC89764-8501-41FA-97DC-84566EA831A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CC9D74E-C7CF-4A60-8147-E2314A027F07} = {7CC9D74E-C7CF-4A60-8147-E2314A027F07}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libintl", "libintl.vcxproj", "{7CC9D74E-C7CF-4A60-8147-E2314A027F07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsoup", "libsoup.vcxproj", "{D9376B58-246D-42F6-A109-EEEAAEFCD359}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4EC89764-8501-41FA-97DC-84566EA831A2} = {4EC89764-8501-41FA-97DC-84566EA831A2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC89764-8501-41FA-97DC-84566EA831A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EC89764-8501-41FA-97DC-84566EA831A2}.Debug|Win32.Build.0 = Debug|Win32
+		{4EC89764-8501-41FA-97DC-84566EA831A2}.Release|Win32.ActiveCfg = Release|Win32
+		{4EC89764-8501-41FA-97DC-84566EA831A2}.Release|Win32.Build.0 = Release|Win32
+		{7CC9D74E-C7CF-4A60-8147-E2314A027F07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CC9D74E-C7CF-4A60-8147-E2314A027F07}.Debug|Win32.Build.0 = Debug|Win32
+		{7CC9D74E-C7CF-4A60-8147-E2314A027F07}.Release|Win32.ActiveCfg = Release|Win32
+		{7CC9D74E-C7CF-4A60-8147-E2314A027F07}.Release|Win32.Build.0 = Release|Win32
+		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Debug|Win32.Build.0 = Debug|Win32
+		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Release|Win32.ActiveCfg = Release|Win32
+		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

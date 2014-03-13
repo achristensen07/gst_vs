@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glib">
+      <UniqueIdentifier>{dadfa623-fef8-4061-907b-64ac6c232e41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glib-2.38.0\glib\docs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\garray.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gasyncqueue.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gatomic.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gbacktrace.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gbase64.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gbitlock.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gbookmarkfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gbytes.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gcharset.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gchecksum.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gconvert.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gdataset.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gdate.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gdatetime.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gdir.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\genviron.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gerror.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gfileutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\ggettext.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\ghash.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\ghmac.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\ghook.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\ghostutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\giochannel.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\giowin32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gkeyfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\glib-init.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\glib-private.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\glist.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gmain.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gmappedfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gmarkup.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gmem.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gmessages.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gnode.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\goption.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gpattern.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gpoll.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gprimes.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gprintf.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gqsort.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gquark.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gqueue.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\grand.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gregex.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gscanner.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gsequence.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gshell.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gslice.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gslist.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gspawn-win32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gspawn-win32-helper.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gspawn-win64-helper.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gstdio.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gstrfuncs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gstring.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gstringchunk.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gtestutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gthread.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gthreadpool.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gthread-win32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gtimer.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gtimezone.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gtrashstack.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gtree.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gunibreak.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gunicollate.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gunidecomp.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\guniprop.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gurifuncs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gutf8.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvariant.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvariant-core.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvariant-parser.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvariant-serialiser.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvarianttype.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gvarianttypeinfo.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gversion.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gwakeup.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="glib-2.38.0\glib\gwin32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glib-2.38.0\glib\galloca.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\garray.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gasyncqueue.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gasyncqueueprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gatomic.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbacktrace.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbase64.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbitlock.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbookmarkfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbsearcharray.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gbytes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gcharset.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gcharsetprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gchecksum.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gconstructor.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gconvert.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gdataset.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gdatasetprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gdate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gdatetime.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gdir.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\genviron.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gerror.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gfileutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\ggettext.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\ghash.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\ghmac.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\ghook.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\ghostutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gi18n.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gi18n-lib.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\giochannel.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gkeyfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glib.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glib_trace.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glibconfig.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glib-init.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glibintl.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glib-object.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glib-private.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\glist.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmacros.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmain.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmain-internal.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmappedfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmarkup.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmem.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmessages.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmessages-private.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gmirroringtable.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gnode.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\goption.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gpattern.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gpoll.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gprimes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gprintf.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gprintfint.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gqsort.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gquark.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gqueue.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\grand.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gregex.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gscanner.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gscripttable.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gsequence.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gshell.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gslice.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gslist.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gspawn.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gstdio.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gstrfuncs.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gstring.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gstringchunk.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtestutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gthread.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gthreadpool.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gthreadprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtimer.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtimezone.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtrashstack.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtree.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gtypes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunibreak.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunichartables.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunicode.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunicodeprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunicomp.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gunidecomp.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gurifuncs.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvariant.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvariant-core.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvariant-internal.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvariant-serialiser.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvarianttype.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gvarianttypeinfo.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gversion.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gversionmacros.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gwakeup.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\gwin32.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\glib\valgrind.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="glib-2.38.0\config.h" />
+    <ClInclude Include="glib-2.38.0\msvc_recommended_pragmas.h" />
+  </ItemGroup>
+</Project>
