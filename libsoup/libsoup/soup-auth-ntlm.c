@@ -204,7 +204,7 @@ sso_ntlm_initiate (SoupAuthNTLMPrivate *priv)
 static char *
 sso_ntlm_response (SoupAuthNTLMPrivate *priv, const char *input, SoupNTLMState conn_state)
 {
-	ssize_t size;
+	size_t size;
 	char buf[1024];
 	char *tmpbuf = buf;
 	size_t	len_in = strlen (input), len_out = sizeof (buf);
