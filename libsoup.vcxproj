@@ -221,7 +221,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)includes_from_wincairo;$(ProjectDir)proxy-libintl-dev\include;$(ProjectDir)libsoup;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
