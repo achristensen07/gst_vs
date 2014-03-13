@@ -11,7 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glib-2.38.0\build\win32\dirent\dirent.c" />
     <ClCompile Include="glib-2.38.0\build\win32\dirent\wdirent.c" />
     <ClCompile Include="glib-2.38.0\gio\fam\fam-module.c" />
     <ClCompile Include="glib-2.38.0\gio\fam\gfamdirectorymonitor.c" />
@@ -35,7 +34,6 @@
     <ClCompile Include="glib-2.38.0\gio\gcancellable.c" />
     <ClCompile Include="glib-2.38.0\gio\gcharsetconverter.c" />
     <ClCompile Include="glib-2.38.0\gio\gcontenttype-win32.c" />
-    <ClCompile Include="glib-2.38.0\gio\gcontenttype.c" />
     <ClCompile Include="glib-2.38.0\gio\gconverter.c" />
     <ClCompile Include="glib-2.38.0\gio\gconverterinputstream.c" />
     <ClCompile Include="glib-2.38.0\gio\gconverteroutputstream.c" />
@@ -43,7 +41,6 @@
     <ClCompile Include="glib-2.38.0\gio\gdatainputstream.c" />
     <ClCompile Include="glib-2.38.0\gio\gdataoutputstream.c" />
     <ClCompile Include="glib-2.38.0\gio\gdbus-daemon-generated.c" />
-    <ClCompile Include="glib-2.38.0\gio\gdbus-tool.c" />
     <ClCompile Include="glib-2.38.0\gio\gdbusactiongroup.c" />
     <ClCompile Include="glib-2.38.0\gio\gdbusaddress.c" />
     <ClCompile Include="glib-2.38.0\gio\gdbusauth.c" />
@@ -99,15 +96,12 @@
     <ClCompile Include="glib-2.38.0\gio\ginetsocketaddress.c" />
     <ClCompile Include="glib-2.38.0\gio\ginitable.c" />
     <ClCompile Include="glib-2.38.0\gio\ginputstream.c" />
-    <ClCompile Include="glib-2.38.0\gio\gio-querymodules.c" />
     <ClCompile Include="glib-2.38.0\gio\gioenumtypes.c" />
     <ClCompile Include="glib-2.38.0\gio\gioerror.c" />
     <ClCompile Include="glib-2.38.0\gio\giomodule.c" />
     <ClCompile Include="glib-2.38.0\gio\gioscheduler.c" />
     <ClCompile Include="glib-2.38.0\gio\giostream.c" />
     <ClCompile Include="glib-2.38.0\gio\gkeyfilesettingsbackend.c" />
-    <ClCompile Include="glib-2.38.0\gio\glib-compile-resources.c" />
-    <ClCompile Include="glib-2.38.0\gio\glib-compile-schemas.c" />
     <ClCompile Include="glib-2.38.0\gio\gloadableicon.c" />
     <ClCompile Include="glib-2.38.0\gio\glocaldirectorymonitor.c" />
     <ClCompile Include="glib-2.38.0\gio\glocalfile.c" />
@@ -147,12 +141,10 @@
     <ClCompile Include="glib-2.38.0\gio\gregistrysettingsbackend.c" />
     <ClCompile Include="glib-2.38.0\gio\gremoteactiongroup.c" />
     <ClCompile Include="glib-2.38.0\gio\gresolver.c" />
-    <ClCompile Include="glib-2.38.0\gio\gresource-tool.c" />
     <ClCompile Include="glib-2.38.0\gio\gresource.c" />
     <ClCompile Include="glib-2.38.0\gio\gresourcefile.c" />
     <ClCompile Include="glib-2.38.0\gio\gseekable.c" />
     <ClCompile Include="glib-2.38.0\gio\gsettings-mapping.c" />
-    <ClCompile Include="glib-2.38.0\gio\gsettings-tool.c" />
     <ClCompile Include="glib-2.38.0\gio\gsettings.c" />
     <ClCompile Include="glib-2.38.0\gio\gsettingsbackend.c" />
     <ClCompile Include="glib-2.38.0\gio\gsettingsschema.c" />
@@ -221,7 +213,6 @@
     <ClCompile Include="glib-2.38.0\glib\gdataset.c" />
     <ClCompile Include="glib-2.38.0\glib\gdate.c" />
     <ClCompile Include="glib-2.38.0\glib\gdatetime.c" />
-    <ClCompile Include="glib-2.38.0\glib\gdir.c" />
     <ClCompile Include="glib-2.38.0\glib\genviron.c" />
     <ClCompile Include="glib-2.38.0\glib\gerror.c" />
     <ClCompile Include="glib-2.38.0\glib\gfileutils.c" />
@@ -291,15 +282,11 @@
     <ClCompile Include="glib-2.38.0\glib\gversion.c" />
     <ClCompile Include="glib-2.38.0\glib\gwakeup.c" />
     <ClCompile Include="glib-2.38.0\glib\gwin32.c" />
-    <ClCompile Include="glib-2.38.0\gmodule\gmodule-win32.c" />
-    <ClCompile Include="glib-2.38.0\gmodule\gmodule.c" />
     <ClCompile Include="glib-2.38.0\gobject\gatomicarray.c" />
     <ClCompile Include="glib-2.38.0\gobject\gbinding.c" />
     <ClCompile Include="glib-2.38.0\gobject\gboxed.c" />
     <ClCompile Include="glib-2.38.0\gobject\genums.c" />
-    <ClCompile Include="glib-2.38.0\gobject\glib-genmarshal.c" />
     <ClCompile Include="glib-2.38.0\gobject\gmarshal.c" />
-    <ClCompile Include="glib-2.38.0\gobject\gobject-query.c" />
     <ClCompile Include="glib-2.38.0\gobject\gobject.c" />
     <ClCompile Include="glib-2.38.0\gobject\gobjectnotifyqueue.c" />
     <ClCompile Include="glib-2.38.0\gobject\gparam.c" />
@@ -339,7 +326,6 @@
     <ClInclude Include="glib-2.38.0\gio\gcancellable.h" />
     <ClInclude Include="glib-2.38.0\gio\gcharsetconverter.h" />
     <ClInclude Include="glib-2.38.0\gio\gconstructor_as_data.h" />
-    <ClInclude Include="glib-2.38.0\gio\gcontenttype.h" />
     <ClInclude Include="glib-2.38.0\gio\gcontenttypeprivate.h" />
     <ClInclude Include="glib-2.38.0\gio\gconverter.h" />
     <ClInclude Include="glib-2.38.0\gio\gconverterinputstream.h" />
@@ -533,7 +519,6 @@
     <ClInclude Include="glib-2.38.0\glib\gdatasetprivate.h" />
     <ClInclude Include="glib-2.38.0\glib\gdate.h" />
     <ClInclude Include="glib-2.38.0\glib\gdatetime.h" />
-    <ClInclude Include="glib-2.38.0\glib\gdir.h" />
     <ClInclude Include="glib-2.38.0\glib\genviron.h" />
     <ClInclude Include="glib-2.38.0\glib\gerror.h" />
     <ClInclude Include="glib-2.38.0\glib\gfileutils.h" />
@@ -614,7 +599,6 @@
     <ClInclude Include="glib-2.38.0\glib\gwakeup.h" />
     <ClInclude Include="glib-2.38.0\glib\gwin32.h" />
     <ClInclude Include="glib-2.38.0\glib\valgrind.h" />
-    <ClInclude Include="glib-2.38.0\gmodule\gmodule.h" />
     <ClInclude Include="glib-2.38.0\gobject\gatomicarray.h" />
     <ClInclude Include="glib-2.38.0\gobject\gbinding.h" />
     <ClInclude Include="glib-2.38.0\gobject\gboxed.h" />

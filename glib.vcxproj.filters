@@ -10,9 +10,6 @@
     <Filter Include="gthread">
       <UniqueIdentifier>{b076e7a9-dbde-4eed-8dd0-f7585a88e0b7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="gmodule">
-      <UniqueIdentifier>{ed9ca845-2cbe-4a7d-8add-6ec33702d119}</UniqueIdentifier>
-    </Filter>
     <Filter Include="gio">
       <UniqueIdentifier>{67fcc5c1-7752-4363-afef-e6f787e0cab5}</UniqueIdentifier>
     </Filter>
@@ -79,9 +76,6 @@
       <Filter>glib</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\glib\gdatetime.c">
-      <Filter>glib</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\glib\gdir.c">
       <Filter>glib</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\glib\genviron.c">
@@ -294,9 +288,6 @@
     <ClCompile Include="glib-2.38.0\gobject\genums.c">
       <Filter>gobject</Filter>
     </ClCompile>
-    <ClCompile Include="glib-2.38.0\gobject\glib-genmarshal.c">
-      <Filter>gobject</Filter>
-    </ClCompile>
     <ClCompile Include="glib-2.38.0\gobject\gmarshal.c">
       <Filter>gobject</Filter>
     </ClCompile>
@@ -304,9 +295,6 @@
       <Filter>gobject</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gobject\gobjectnotifyqueue.c">
-      <Filter>gobject</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gobject\gobject-query.c">
       <Filter>gobject</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gobject\gparam.c">
@@ -344,12 +332,6 @@
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gthread\gthread-impl.c">
       <Filter>gthread</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gmodule\gmodule.c">
-      <Filter>gmodule</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gmodule\gmodule-win32.c">
-      <Filter>gmodule</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gaction.c">
       <Filter>gio</Filter>
@@ -397,9 +379,6 @@
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gcharsetconverter.c">
-      <Filter>gio</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\gcontenttype.c">
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gcontenttype-win32.c">
@@ -510,9 +489,6 @@
     <ClCompile Include="glib-2.38.0\gio\gdbusserver.c">
       <Filter>gio</Filter>
     </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\gdbus-tool.c">
-      <Filter>gio</Filter>
-    </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gdbusutils.c">
       <Filter>gio</Filter>
     </ClCompile>
@@ -603,9 +579,6 @@
     <ClCompile Include="glib-2.38.0\gio\giomodule.c">
       <Filter>gio</Filter>
     </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\gio-querymodules.c">
-      <Filter>gio</Filter>
-    </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gioscheduler.c">
       <Filter>gio</Filter>
     </ClCompile>
@@ -613,12 +586,6 @@
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gkeyfilesettingsbackend.c">
-      <Filter>gio</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\glib-compile-resources.c">
-      <Filter>gio</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\glib-compile-schemas.c">
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gloadableicon.c">
@@ -744,9 +711,6 @@
     <ClCompile Include="glib-2.38.0\gio\gresourcefile.c">
       <Filter>gio</Filter>
     </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\gresource-tool.c">
-      <Filter>gio</Filter>
-    </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gseekable.c">
       <Filter>gio</Filter>
     </ClCompile>
@@ -760,9 +724,6 @@
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gsettingsschema.c">
-      <Filter>gio</Filter>
-    </ClCompile>
-    <ClCompile Include="glib-2.38.0\gio\gsettings-tool.c">
       <Filter>gio</Filter>
     </ClCompile>
     <ClCompile Include="glib-2.38.0\gio\gsimpleaction.c">
@@ -930,9 +891,6 @@
     <ClCompile Include="glib-2.38.0\gio\gvdb\gvdb-reader.c">
       <Filter>gio\gvdb</Filter>
     </ClCompile>
-    <ClCompile Include="glib-2.38.0\build\win32\dirent\dirent.c">
-      <Filter>build\win32\dirent</Filter>
-    </ClCompile>
     <ClCompile Include="glib-2.38.0\build\win32\dirent\wdirent.c">
       <Filter>build\win32\dirent</Filter>
     </ClCompile>
@@ -996,9 +954,6 @@
       <Filter>glib</Filter>
     </ClInclude>
     <ClInclude Include="glib-2.38.0\glib\gdatetime.h">
-      <Filter>glib</Filter>
-    </ClInclude>
-    <ClInclude Include="glib-2.38.0\glib\gdir.h">
       <Filter>glib</Filter>
     </ClInclude>
     <ClInclude Include="glib-2.38.0\glib\genviron.h">
@@ -1303,9 +1258,6 @@
     <ClInclude Include="glib-2.38.0\gobject\gvaluetypes.h">
       <Filter>gobject</Filter>
     </ClInclude>
-    <ClInclude Include="glib-2.38.0\gmodule\gmodule.h">
-      <Filter>gmodule</Filter>
-    </ClInclude>
     <ClInclude Include="glib-2.38.0\gio\gaction.h">
       <Filter>gio</Filter>
     </ClInclude>
@@ -1355,9 +1307,6 @@
       <Filter>gio</Filter>
     </ClInclude>
     <ClInclude Include="glib-2.38.0\gio\gconstructor_as_data.h">
-      <Filter>gio</Filter>
-    </ClInclude>
-    <ClInclude Include="glib-2.38.0\gio\gcontenttype.h">
       <Filter>gio</Filter>
     </ClInclude>
     <ClInclude Include="glib-2.38.0\gio\gcontenttypeprivate.h">
