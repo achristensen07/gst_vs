@@ -205,6 +205,8 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)includes_from_wincairo;$(ProjectDir)proxy-libintl-dev\include;$(ProjectDir)libsoup;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -221,6 +223,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)includes_from_wincairo;$(ProjectDir)proxy-libintl-dev\include;$(ProjectDir)libsoup;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

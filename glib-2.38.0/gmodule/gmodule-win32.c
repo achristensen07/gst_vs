@@ -34,6 +34,7 @@
 
 #include <stdio.h>
 #include <windows.h>
+#include "gtypes.h"
 
 #include <tlhelp32.h>
 
