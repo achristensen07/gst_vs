@@ -26,6 +26,9 @@
  * @short_description: Various utility functions
  *
  */
+#ifdef HAVE_CONFIG_H
+#  include "config.h"
+#endif
 
 #include "gst_private.h"
 #include <stdio.h>

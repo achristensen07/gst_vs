@@ -94,6 +94,9 @@
  *
  * Last reviewed on 2006-08-11 (0.10.10)
  */
+#ifdef HAVE_CONFIG_H
+#  include "config.h"
+#endif
 
 #include "gst_private.h"
 #include "gstconfig.h"

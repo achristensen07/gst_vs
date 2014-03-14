@@ -78,6 +78,9 @@
  *
  * Last reviewed on 2012-03-28 (0.11.3)
  */
+#ifdef HAVE_CONFIG_H
+#  include "config.h"
+#endif
 
 #include "gst_private.h"
 #include <glib.h>

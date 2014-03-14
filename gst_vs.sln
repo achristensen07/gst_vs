@@ -15,6 +15,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsoup", "libsoup.vcxproj"
 		{4EC89764-8501-41FA-97DC-84566EA831A2} = {4EC89764-8501-41FA-97DC-84566EA831A2}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gstreamer", "gstreamer.vcxproj", "{ED325D74-9C78-442B-85D9-3EAF2989662A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9376B58-246D-42F6-A109-EEEAAEFCD359} = {D9376B58-246D-42F6-A109-EEEAAEFCD359}
+		{4EC89764-8501-41FA-97DC-84566EA831A2} = {4EC89764-8501-41FA-97DC-84566EA831A2}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +39,10 @@ Global
 		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Debug|Win32.Build.0 = Debug|Win32
 		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Release|Win32.ActiveCfg = Release|Win32
 		{D9376B58-246D-42F6-A109-EEEAAEFCD359}.Release|Win32.Build.0 = Release|Win32
+		{ED325D74-9C78-442B-85D9-3EAF2989662A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED325D74-9C78-442B-85D9-3EAF2989662A}.Debug|Win32.Build.0 = Debug|Win32
+		{ED325D74-9C78-442B-85D9-3EAF2989662A}.Release|Win32.ActiveCfg = Release|Win32
+		{ED325D74-9C78-442B-85D9-3EAF2989662A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

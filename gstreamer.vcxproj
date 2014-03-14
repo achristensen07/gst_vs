@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gstreamer-1.2.1\gst\gst.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstallocator.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstatomicqueue.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstbin.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstbuffer.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstbufferlist.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstbufferpool.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstbus.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstcaps.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstcapsfeatures.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstchildproxy.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstclock.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstcontext.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstcontrolbinding.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstcontrolsource.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstdatetime.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstdebugutils.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstelement.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstelementfactory.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstenumtypes.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsterror.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstevent.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstformat.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstghostpad.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstinfo.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstiterator.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstmemory.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstmessage.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstmeta.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstminiobject.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstobject.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpad.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpadtemplate.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstparamspecs.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstparse.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpipeline.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstplugin.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpluginfeature.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpluginloader.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpoll.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstpreset.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstquark.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstquery.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstregistry.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstregistrybinary.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstregistrychunks.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstsample.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstsegment.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gststructure.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstsystemclock.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttaglist.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttagsetter.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttask.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttaskpool.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttoc.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttocsetter.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttrace.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttypefind.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsttypefindfactory.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gsturi.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstutils.c" />
+    <ClCompile Include="gstreamer-1.2.1\gst\gstvalue.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gstreamer-1.2.1\gst\gettext.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\glib-compat-private.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\glib-compat.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gst-i18n-app.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gst-i18n-lib.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gst.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstallocator.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstatomicqueue.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstbin.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstbuffer.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstbufferlist.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstbufferpool.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstbus.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcaps.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcapsfeatures.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstchildproxy.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstclock.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcompat.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcontext.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcontrolbinding.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstcontrolsource.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstdatetime.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstdebugutils.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstelement.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstelementfactory.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstelementmetadata.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstenumtypes.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsterror.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstevent.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstformat.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstghostpad.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstinfo.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstiterator.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstmacros.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstmemory.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstmessage.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstmeta.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstminiobject.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstobject.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpad.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpadtemplate.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstparamspecs.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstparse.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpipeline.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstplugin.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpluginfeature.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpluginloader.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpoll.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstpreset.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstquark.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstquery.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstregistry.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstregistrybinary.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstregistrychunks.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstsample.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstsegment.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gststructure.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstsystemclock.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttaglist.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttagsetter.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttask.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttaskpool.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttoc.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttocsetter.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttrace.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttypefind.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsttypefindfactory.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gsturi.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstutils.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstvalue.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gstversion.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\gst_private.h" />
+    <ClInclude Include="gstreamer-1.2.1\gst\math-compat.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED325D74-9C78-442B-85D9-3EAF2989662A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gstreamer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>MEMORY_ALIGNMENT_PAGESIZE;PACKAGE_VERSION="1.2.1";PACKAGE="";GST_PACKAGE_NAME="";GST_PACKAGE_ORIGIN="";GST_LICENSE="";LIBDIR="";VERSION="1.2.1";GST_PLUGIN_SCANNER_INSTALLED="";TARGET_CPU="";PLUGINDIR="";GST_DATADIR="";GST_API_VERSION="1";LOCALEDIR="";HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)gstreamer-1.2.1;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;$(ProjectDir)proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(OutDir)glib.lib;$(OutDir)libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>MEMORY_ALIGNMENT_PAGESIZE;PACKAGE_VERSION="1.2.1";PACKAGE="";GST_PACKAGE_NAME="";GST_PACKAGE_ORIGIN="";GST_LICENSE="";LIBDIR="";VERSION="1.2.1";GST_PLUGIN_SCANNER_INSTALLED="";TARGET_CPU="";PLUGINDIR="";GST_DATADIR="";GST_API_VERSION="1";LOCALEDIR="";HAVE_CONFIG_H;WIN32;NDEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)gstreamer-1.2.1;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;$(ProjectDir)proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(OutDir)glib.lib;$(OutDir)libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
