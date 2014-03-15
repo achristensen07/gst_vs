@@ -75,6 +75,7 @@
     <ClCompile Include="..\gstreamer-1.2.1\gst\gstvalue.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\gstreamer-1.2.1\config.h" />
     <ClInclude Include="..\gstreamer-1.2.1\gst\gettext.h" />
     <ClInclude Include="..\gstreamer-1.2.1\gst\glib-compat-private.h" />
     <ClInclude Include="..\gstreamer-1.2.1\gst\glib-compat.h" />

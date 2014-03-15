@@ -84,6 +84,7 @@
     <ClCompile Include="..\libsoup\libsoup\soup-xmlrpc.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\libsoup\config.h" />
     <ClInclude Include="..\libsoup\libsoup\soup-address.h" />
     <ClInclude Include="..\libsoup\libsoup\soup-auth-basic.h" />
     <ClInclude Include="..\libsoup\libsoup\soup-auth-digest.h" />
@@ -206,7 +207,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\includes_from_wincairo;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\libsoup;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\libsoup;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2\include;$(ProjectDir)..\sqlite-amalgamation-3080401%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
@@ -224,7 +225,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\includes_from_wincairo;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\libsoup;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\libsoup;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2\include;$(ProjectDir)..\sqlite-amalgamation-3080401%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>

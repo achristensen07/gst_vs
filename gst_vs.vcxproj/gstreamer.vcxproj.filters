@@ -413,5 +413,6 @@
     <ClInclude Include="..\gstreamer-1.2.1\gst\gstversion.h">
       <Filter>gst</Filter>
     </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\config.h" />
   </ItemGroup>
 </Project>

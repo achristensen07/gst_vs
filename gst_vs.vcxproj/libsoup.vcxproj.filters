@@ -452,5 +452,6 @@
     <ClInclude Include="..\libsoup\libsoup\soup-xmlrpc.h">
       <Filter>libsoup</Filter>
     </ClInclude>
+    <ClInclude Include="..\libsoup\config.h" />
   </ItemGroup>
 </Project>

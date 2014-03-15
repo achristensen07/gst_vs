@@ -1,1 +1,0 @@
-These files are from https://github.com/bfulgham/WinCairoRequirements
