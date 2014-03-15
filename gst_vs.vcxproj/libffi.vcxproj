@@ -11,45 +11,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\zlib-1.2.8\adler32.c" />
-    <ClCompile Include="..\zlib-1.2.8\compress.c" />
-    <ClCompile Include="..\zlib-1.2.8\crc32.c" />
-    <ClCompile Include="..\zlib-1.2.8\deflate.c" />
-    <ClCompile Include="..\zlib-1.2.8\gzclose.c" />
-    <ClCompile Include="..\zlib-1.2.8\gzlib.c" />
-    <ClCompile Include="..\zlib-1.2.8\gzread.c" />
-    <ClCompile Include="..\zlib-1.2.8\gzwrite.c" />
-    <ClCompile Include="..\zlib-1.2.8\infback.c" />
-    <ClCompile Include="..\zlib-1.2.8\inffast.c" />
-    <ClCompile Include="..\zlib-1.2.8\inflate.c" />
-    <ClCompile Include="..\zlib-1.2.8\inftrees.c" />
-    <ClCompile Include="..\zlib-1.2.8\trees.c" />
-    <ClCompile Include="..\zlib-1.2.8\uncompr.c" />
-    <ClCompile Include="..\zlib-1.2.8\zutil.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\closures.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\debug.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\java_raw_api.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\prep_cif.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\raw_api.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\types.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi.c" />
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi64.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\zlib-1.2.8\crc32.h" />
-    <ClInclude Include="..\zlib-1.2.8\deflate.h" />
-    <ClInclude Include="..\zlib-1.2.8\gzguts.h" />
-    <ClInclude Include="..\zlib-1.2.8\inffast.h" />
-    <ClInclude Include="..\zlib-1.2.8\inffixed.h" />
-    <ClInclude Include="..\zlib-1.2.8\inflate.h" />
-    <ClInclude Include="..\zlib-1.2.8\inftrees.h" />
-    <ClInclude Include="..\zlib-1.2.8\trees.h" />
-    <ClInclude Include="..\zlib-1.2.8\zconf.h" />
-    <ClInclude Include="..\zlib-1.2.8\zlib.h" />
-    <ClInclude Include="..\zlib-1.2.8\zutil.h" />
+    <ClInclude Include="..\libffi-3.0.13\include\ffi.h" />
+    <ClInclude Include="..\libffi-3.0.13\include\ffi_common.h" />
+    <ClInclude Include="..\libffi-3.0.13\src\x86\ffitarget.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\zlib-1.2.8\win32\zlib.def" />
+    <MASM Include="..\libffi-3.0.13\src\x86\win32.asm">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">0</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">0</WarningLevel>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\zlib-1.2.8\win32\zlib1.rc" />
+    <None Include="..\libffi-3.0.13\libffi.def" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DC7F9539-7030-4582-9976-E26840919BFC}</ProjectGuid>
+    <ProjectGuid>{55640925-96DC-40C6-952E-C381C07B7AE8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>zlib</RootNamespace>
+    <RootNamespace>libffi</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -67,6 +55,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -89,12 +78,13 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FFI_BUILDING;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>$(ProjectDir)..\zlib-1.2.8\win32\zlib.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectDir)..\libffi-3.0.13\libffi.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -105,17 +95,19 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FFI_BUILDING;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ModuleDefinitionFile>$(ProjectDir)..\zlib-1.2.8\win32\zlib.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectDir)..\libffi-3.0.13\libffi.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{819504aa-49ac-468d-98fd-ffa07c3ca5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\x86">
+      <UniqueIdentifier>{5540e100-556f-4ad7-b484-a12c3d116584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{45fb980e-1d64-42a9-b32f-a3f623c01c0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libffi-3.0.13\src\closures.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\debug.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\java_raw_api.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\prep_cif.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\raw_api.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\types.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi.c">
+      <Filter>src\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi64.c">
+      <Filter>src\x86</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libffi-3.0.13\src\x86\ffitarget.h">
+      <Filter>src\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi-3.0.13\include\ffi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libffi-3.0.13\include\ffi_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\libffi-3.0.13\src\x86\win32.asm">
+      <Filter>src\x86</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libffi-3.0.13\libffi.def" />
+  </ItemGroup>
+</Project>
