@@ -894,6 +894,9 @@
     <ClCompile Include="..\glib-2.38.0\build\win32\dirent\wdirent.c">
       <Filter>build\win32\dirent</Filter>
     </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gclosure.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\glib-2.38.0\glib\galloca.h">
@@ -1842,6 +1845,9 @@
     </ClInclude>
     <ClInclude Include="..\glib-2.38.0\build\win32\dirent\dirent.h">
       <Filter>build\win32\dirent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gclosure.h">
+      <Filter>gobject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

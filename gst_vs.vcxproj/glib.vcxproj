@@ -285,6 +285,7 @@
     <ClCompile Include="..\glib-2.38.0\gobject\gatomicarray.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gbinding.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gboxed.c" />
+    <ClCompile Include="..\glib-2.38.0\gobject\gclosure.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\genums.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gmarshal.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gobject.c" />
@@ -602,6 +603,7 @@
     <ClInclude Include="..\glib-2.38.0\gobject\gatomicarray.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gbinding.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gboxed.h" />
+    <ClInclude Include="..\glib-2.38.0\gobject\gclosure.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\genums.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\glib-types.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gmarshal.h" />
