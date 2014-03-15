@@ -190,7 +190,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>MEMORY_ALIGNMENT_PAGESIZE;PACKAGE_VERSION="1.2.1";PACKAGE="";GST_PACKAGE_NAME="";GST_PACKAGE_ORIGIN="";GST_LICENSE="";LIBDIR="";VERSION="1.2.1";GST_PLUGIN_SCANNER_INSTALLED="";TARGET_CPU="";PLUGINDIR="";GST_DATADIR="";GST_API_VERSION="1";LOCALEDIR="";HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)gstreamer-1.2.1;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;$(ProjectDir)proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
@@ -207,7 +207,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>MEMORY_ALIGNMENT_PAGESIZE;PACKAGE_VERSION="1.2.1";PACKAGE="";GST_PACKAGE_NAME="";GST_PACKAGE_ORIGIN="";GST_LICENSE="";LIBDIR="";VERSION="1.2.1";GST_PLUGIN_SCANNER_INSTALLED="";TARGET_CPU="";PLUGINDIR="";GST_DATADIR="";GST_API_VERSION="1";LOCALEDIR="";HAVE_CONFIG_H;WIN32;NDEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)gstreamer-1.2.1;$(ProjectDir)glib-2.38.0;$(ProjectDir)glib-2.38.0\glib;$(ProjectDir)glib-2.38.0\gmodule;$(ProjectDir)proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
