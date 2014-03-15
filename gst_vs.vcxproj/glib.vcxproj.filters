@@ -22,14 +22,14 @@
     <Filter Include="gio\fen">
       <UniqueIdentifier>{ecb187e2-f583-4d97-9a01-75d5de4cff47}</UniqueIdentifier>
     </Filter>
-    <Filter Include="build">
-      <UniqueIdentifier>{626f3dea-6b5a-429f-9d47-7edda10f7dba}</UniqueIdentifier>
+    <Filter Include="glib\gnulib">
+      <UniqueIdentifier>{a1f78eec-deda-4676-9451-03c15cd82ec7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="build\win32">
-      <UniqueIdentifier>{aa63e771-e038-4a6b-8163-ea83a81269c8}</UniqueIdentifier>
+    <Filter Include="glib\libcharset">
+      <UniqueIdentifier>{81293467-b711-4be1-96b2-c071416ca4c7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="build\win32\dirent">
-      <UniqueIdentifier>{fec9e7b6-f593-4eec-9155-ac6cc551ee72}</UniqueIdentifier>
+    <Filter Include="gmodule">
+      <UniqueIdentifier>{2dae7b3b-d622-46a8-98d0-04a98803f353}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -891,11 +891,35 @@
     <ClCompile Include="..\glib-2.38.0\gio\gvdb\gvdb-reader.c">
       <Filter>gio\gvdb</Filter>
     </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\build\win32\dirent\wdirent.c">
-      <Filter>build\win32\dirent</Filter>
-    </ClCompile>
     <ClCompile Include="..\glib-2.38.0\gobject\gclosure.c">
       <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\asnprintf.c">
+      <Filter>glib\gnulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf.c">
+      <Filter>glib\gnulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf-args.c">
+      <Filter>glib\gnulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf-parse.c">
+      <Filter>glib\gnulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\vasnprintf.c">
+      <Filter>glib\gnulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\libcharset\localcharset.c">
+      <Filter>glib\libcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule.c">
+      <Filter>gmodule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule-win32.c">
+      <Filter>gmodule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gdir.c">
+      <Filter>glib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1843,11 +1867,38 @@
     <ClInclude Include="..\glib-2.38.0\gio\gvdb\gvdb-reader.h">
       <Filter>gio\gvdb</Filter>
     </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\build\win32\dirent\dirent.h">
-      <Filter>build\win32\dirent</Filter>
-    </ClInclude>
     <ClInclude Include="..\glib-2.38.0\gobject\gclosure.h">
       <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\g-gnulib.h">
+      <Filter>glib\gnulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf.h">
+      <Filter>glib\gnulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf-args.h">
+      <Filter>glib\gnulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf-parse.h">
+      <Filter>glib\gnulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\vasnprintf.h">
+      <Filter>glib\gnulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\libcharset\libcharset.h">
+      <Filter>glib\libcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\libcharset\localcharset.h">
+      <Filter>glib\libcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmodule.h">
+      <Filter>gmodule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmoduleconf.h">
+      <Filter>gmodule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gdir.h">
+      <Filter>glib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

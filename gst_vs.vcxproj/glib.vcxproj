@@ -11,7 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\glib-2.38.0\build\win32\dirent\wdirent.c" />
     <ClCompile Include="..\glib-2.38.0\gio\fam\fam-module.c" />
     <ClCompile Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.c" />
     <ClCompile Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.c" />
@@ -213,6 +212,7 @@
     <ClCompile Include="..\glib-2.38.0\glib\gdataset.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gdate.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gdatetime.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gdir.c" />
     <ClCompile Include="..\glib-2.38.0\glib\genviron.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gerror.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gfileutils.c" />
@@ -233,6 +233,11 @@
     <ClCompile Include="..\glib-2.38.0\glib\gmem.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gmessages.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gnode.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\asnprintf.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf-args.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf-parse.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\printf.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\gnulib\vasnprintf.c" />
     <ClCompile Include="..\glib-2.38.0\glib\goption.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gpattern.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gpoll.c" />
@@ -282,6 +287,9 @@
     <ClCompile Include="..\glib-2.38.0\glib\gversion.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gwakeup.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gwin32.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\libcharset\localcharset.c" />
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule-win32.c" />
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gatomicarray.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gbinding.c" />
     <ClCompile Include="..\glib-2.38.0\gobject\gboxed.c" />
@@ -304,7 +312,6 @@
     <ClCompile Include="..\glib-2.38.0\gthread\gthread-impl.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\glib-2.38.0\build\win32\dirent\dirent.h" />
     <ClInclude Include="..\glib-2.38.0\config.h" />
     <ClInclude Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.h" />
     <ClInclude Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.h" />
@@ -520,6 +527,7 @@
     <ClInclude Include="..\glib-2.38.0\glib\gdatasetprivate.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gdate.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gdatetime.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gdir.h" />
     <ClInclude Include="..\glib-2.38.0\glib\genviron.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gerror.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gfileutils.h" />
@@ -550,6 +558,11 @@
     <ClInclude Include="..\glib-2.38.0\glib\gmessages.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gmirroringtable.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gnode.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\g-gnulib.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf-args.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf-parse.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\printf.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\gnulib\vasnprintf.h" />
     <ClInclude Include="..\glib-2.38.0\glib\goption.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gpattern.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gpoll.h" />
@@ -599,7 +612,11 @@
     <ClInclude Include="..\glib-2.38.0\glib\gversionmacros.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gwakeup.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gwin32.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\libcharset\libcharset.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\libcharset\localcharset.h" />
     <ClInclude Include="..\glib-2.38.0\glib\valgrind.h" />
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmodule.h" />
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmoduleconf.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gatomicarray.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gbinding.h" />
     <ClInclude Include="..\glib-2.38.0\gobject\gboxed.h" />
@@ -631,13 +648,13 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -665,7 +682,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>LINK_SIZE=2;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBDIR;LINK_SIZE=2;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
@@ -681,7 +698,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>LINK_SIZE=2;WIN32;NDEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LIBDIR;LINK_SIZE=2;WIN32;NDEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
