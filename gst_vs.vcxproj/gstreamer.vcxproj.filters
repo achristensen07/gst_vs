@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gst">
+      <UniqueIdentifier>{8d054a5b-c40b-47b5-ac98-b1b2dc0239bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gst.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstallocator.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstatomicqueue.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstbin.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstbuffer.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstbufferlist.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstbufferpool.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstbus.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstcaps.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstcapsfeatures.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstchildproxy.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstclock.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstcontext.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstcontrolbinding.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstcontrolsource.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstdatetime.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstdebugutils.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstelement.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstelementfactory.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsterror.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstevent.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstformat.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstghostpad.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstinfo.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstiterator.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstmemory.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstmessage.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstmeta.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstminiobject.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstobject.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpad.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpadtemplate.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstparamspecs.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstparse.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpipeline.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstplugin.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpluginfeature.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpluginloader.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpoll.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstpreset.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstquark.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstquery.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstregistry.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstregistrybinary.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstregistrychunks.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstsample.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstsegment.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gststructure.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstsystemclock.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttaglist.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttagsetter.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttask.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttaskpool.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttoc.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttocsetter.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttrace.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttypefind.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsttypefindfactory.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gsturi.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstutils.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstvalue.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\gstenumtypes.c">
+      <Filter>gst</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gettext.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\glib-compat.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\glib-compat-private.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gst.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gst_private.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstallocator.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstatomicqueue.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstbin.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstbuffer.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstbufferlist.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstbufferpool.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstbus.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcaps.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcapsfeatures.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstchildproxy.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstclock.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcompat.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcontext.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcontrolbinding.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstcontrolsource.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstdatetime.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstdebugutils.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstelement.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstelementfactory.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstelementmetadata.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsterror.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstevent.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstformat.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstghostpad.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gst-i18n-app.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gst-i18n-lib.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstinfo.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstiterator.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstmacros.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstmemory.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstmessage.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstmeta.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstminiobject.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstobject.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpad.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpadtemplate.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstparamspecs.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstparse.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpipeline.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstplugin.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpluginfeature.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpluginloader.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpoll.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstpreset.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstquark.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstquery.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstregistry.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstregistrybinary.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstregistrychunks.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstsample.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstsegment.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gststructure.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstsystemclock.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttaglist.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttagsetter.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttask.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttaskpool.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttoc.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttocsetter.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttrace.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttypefind.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsttypefindfactory.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gsturi.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstutils.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstvalue.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\math-compat.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstenumtypes.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\gstversion.h">
+      <Filter>gst</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

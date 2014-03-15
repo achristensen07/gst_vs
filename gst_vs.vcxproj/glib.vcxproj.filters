@@ -1,0 +1,1847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glib">
+      <UniqueIdentifier>{dadfa623-fef8-4061-907b-64ac6c232e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gobject">
+      <UniqueIdentifier>{6b1ce4a6-90e4-4345-932d-559d683c6c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gthread">
+      <UniqueIdentifier>{b076e7a9-dbde-4eed-8dd0-f7585a88e0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gio">
+      <UniqueIdentifier>{67fcc5c1-7752-4363-afef-e6f787e0cab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gio\fam">
+      <UniqueIdentifier>{52a99cb2-0a6f-454f-91ab-432edf5b63f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gio\gvdb">
+      <UniqueIdentifier>{18838235-f556-4ea5-8502-509ebe541a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gio\fen">
+      <UniqueIdentifier>{ecb187e2-f583-4d97-9a01-75d5de4cff47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{626f3dea-6b5a-429f-9d47-7edda10f7dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\win32">
+      <UniqueIdentifier>{aa63e771-e038-4a6b-8163-ea83a81269c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\win32\dirent">
+      <UniqueIdentifier>{fec9e7b6-f593-4eec-9155-ac6cc551ee72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glib-2.38.0\glib\docs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\garray.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gasyncqueue.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gatomic.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gbacktrace.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gbase64.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gbitlock.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gbookmarkfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gbytes.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gcharset.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gchecksum.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gconvert.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gdataset.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gdate.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gdatetime.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\genviron.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gerror.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gfileutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\ggettext.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\ghash.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\ghmac.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\ghook.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\ghostutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\giochannel.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\giowin32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gkeyfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\glib-init.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\glib-private.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\glist.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gmain.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gmappedfile.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gmarkup.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gmem.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gmessages.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gnode.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\goption.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gpattern.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gpoll.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gprimes.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gprintf.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gqsort.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gquark.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gqueue.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\grand.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gregex.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gscanner.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gsequence.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gshell.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gslice.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gslist.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gspawn-win32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gspawn-win32-helper.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gspawn-win64-helper.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gstdio.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gstrfuncs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gstring.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gstringchunk.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gtestutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gthread.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gthreadpool.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gthread-win32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gtimer.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gtimezone.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gtrashstack.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gtree.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gunibreak.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gunicollate.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gunidecomp.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\guniprop.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gurifuncs.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gutf8.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gutils.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvariant.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvariant-core.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvariant-parser.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvariant-serialiser.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvarianttype.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gvarianttypeinfo.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gversion.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gwakeup.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\gwin32.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gatomicarray.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gbinding.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gboxed.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\genums.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gmarshal.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gobject.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gobjectnotifyqueue.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gparam.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gparamspecs.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gsignal.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gsourceclosure.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtype.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtypemodule.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtypeplugin.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvalue.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluearray.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluetransform.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluetypes.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gthread\gthread-impl.c">
+      <Filter>gthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gaction.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gactiongroup.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gactiongroupexporter.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gactionmap.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gappinfo.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gapplication.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gapplicationcommandline.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gapplicationimpl-dbus.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gasynchelper.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gasyncinitable.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gasyncresult.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gbufferedinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gbufferedoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gbytesicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gcancellable.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gcharsetconverter.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gcontenttype-win32.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gconverter.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gconverterinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gconverteroutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gcredentials.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdatainputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdataoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusactiongroup.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauth.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauthmechanism.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauthmechanismanon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauthmechanismexternal.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauthmechanismsha1.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusauthobserver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusdaemon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbus-daemon-generated.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbuserror.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusinterface.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusinterfaceskeleton.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusintrospection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusmenumodel.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusmessage.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusmethodinvocation.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusnameowning.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusnamewatching.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobject.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobjectmanager.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobjectmanagerclient.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobjectmanagerserver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobjectproxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusobjectskeleton.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusprivate.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusproxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusserver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdbusutils.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdelayedsettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdrive.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdummyfile.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdummyproxyresolver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gdummytlsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gemblem.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gemblemedicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfile.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileattribute.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfiledescriptorbased.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileenumerator.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileinfo.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileiostream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfilemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfilenamecompleter.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfileoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfilterinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gfilteroutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\ginetaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\ginetaddressmask.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\ginetsocketaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\ginitable.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\ginputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gioenumtypes.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gioerror.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\giomodule.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gioscheduler.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\giostream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gkeyfilesettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gloadableicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocaldirectorymonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfile.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfileenumerator.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfileinfo.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfileinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfileiostream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfilemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalfileoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\glocalvfs.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmemoryinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmemoryoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmemorysettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmenu.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmenuexporter.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmenumodel.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmount.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gmountoperation.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnativevolumemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnetworkaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnetworking.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnetworkmonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnetworkmonitorbase.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnetworkservice.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gnullsettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\goutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpermission.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpollableinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpollableoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpollableutils.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpollfilemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gpropertyaction.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gproxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gproxyaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gproxyaddressenumerator.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gproxyresolver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gregistrysettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gremoteactiongroup.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gresolver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gresource.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gresourcefile.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gseekable.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsettings.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsettingsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsettings-mapping.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsettingsschema.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsimpleaction.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsimpleactiongroup.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsimpleasyncresult.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsimplepermission.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsimpleproxyresolver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocket.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketaddress.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketaddressenumerator.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketclient.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketconnectable.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketcontrolmessage.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketinputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketlistener.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketoutputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocketservice.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocks4aproxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocks4proxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsocks5proxy.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gsrvtarget.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtask.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtcpconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtcpwrapperconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtestdbus.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gthemedicon.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gthreadedresolver.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gthreadedsocketservice.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsbackend.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlscertificate.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsclientconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsdatabase.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsfiledatabase.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsinteraction.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlspassword.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gtlsserverconnection.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gunionvolumemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gvfs.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gvolume.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gvolumemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gwin32appinfo.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gwin32inputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gwin32mount.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gwin32outputstream.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gwin32volumemonitor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gzlibcompressor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gzlibdecompressor.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\strinfo.c">
+      <Filter>gio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\fam\fam-module.c">
+      <Filter>gio\fam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.c">
+      <Filter>gio\fam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.c">
+      <Filter>gio\fam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.c">
+      <Filter>gio\fen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.c">
+      <Filter>gio\fen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gvdb\gvdb-builder.c">
+      <Filter>gio\gvdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\gvdb\gvdb-reader.c">
+      <Filter>gio\gvdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\build\win32\dirent\wdirent.c">
+      <Filter>build\win32\dirent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib-2.38.0\glib\galloca.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\garray.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gasyncqueue.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gasyncqueueprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gatomic.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbacktrace.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbase64.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbitlock.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbookmarkfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbsearcharray.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gbytes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gcharset.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gcharsetprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gchecksum.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gconstructor.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gconvert.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gdataset.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gdatasetprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gdate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gdatetime.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\genviron.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gerror.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gfileutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\ggettext.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\ghash.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\ghmac.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\ghook.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\ghostutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gi18n.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gi18n-lib.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\giochannel.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gkeyfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib_trace.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glibconfig.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib-init.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glibintl.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib-object.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib-private.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glist.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmacros.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmain.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmain-internal.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmappedfile.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmarkup.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmem.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmessages.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmessages-private.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gmirroringtable.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gnode.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\goption.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gpattern.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gpoll.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gprimes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gprintf.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gprintfint.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gqsort.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gquark.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gqueue.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\grand.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gregex.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gscanner.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gscripttable.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gsequence.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gshell.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gslice.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gslist.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gspawn.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gstdio.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gstrfuncs.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gstring.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gstringchunk.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtestutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gthread.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gthreadpool.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gthreadprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtimer.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtimezone.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtrashstack.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtree.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gtypes.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunibreak.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunichartables.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunicode.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunicodeprivate.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunicomp.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gunidecomp.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gurifuncs.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gutils.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvariant.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvariant-core.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvariant-internal.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvariant-serialiser.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvarianttype.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gvarianttypeinfo.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gversion.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gversionmacros.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gwakeup.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\gwin32.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\valgrind.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\config.h" />
+    <ClInclude Include="..\glib-2.38.0\msvc_recommended_pragmas.h" />
+    <ClInclude Include="..\glib-2.38.0\gobject\gatomicarray.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gbinding.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gboxed.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\genums.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\glib-types.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gmarshal.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gobject.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gobject_trace.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gparam.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gparamspecs.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gsignal.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gsourceclosure.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtype.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtypemodule.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtypeplugin.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtype-private.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvalue.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluearray.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluecollector.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluetypes.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gaction.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gactiongroup.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gactiongroupexporter.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gactionmap.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gappinfo.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gapplication.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gapplicationcommandline.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gapplicationimpl.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gasynchelper.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gasyncinitable.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gasyncresult.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gbufferedinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gbufferedoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gbytesicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gcancellable.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gcharsetconverter.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gconstructor_as_data.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gcontenttypeprivate.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gconverter.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gconverterinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gconverteroutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gcredentials.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdatainputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdataoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusactiongroup.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusactiongroup-private.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauth.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauthmechanism.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauthmechanismanon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauthmechanismexternal.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauthmechanismsha1.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusauthobserver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusdaemon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbus-daemon-generated.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbuserror.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusinterface.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusinterfaceskeleton.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusintrospection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusmenumodel.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusmessage.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusmethodinvocation.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusnameowning.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusnamewatching.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobject.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobjectmanager.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobjectmanagerclient.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobjectmanagerserver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobjectproxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusobjectskeleton.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusprivate.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusproxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusserver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdbusutils.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdelayedsettingsbackend.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdrive.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdummyfile.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdummyproxyresolver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gdummytlsbackend.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gemblem.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gemblemedicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfile.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileattribute.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileattribute-priv.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfiledescriptorbased.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileenumerator.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileinfo.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileinfo-priv.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileiostream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfilemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfilenamecompleter.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfileoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfilterinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gfilteroutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\ginetaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\ginetaddressmask.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\ginetsocketaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\ginitable.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\ginputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gio.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gioenums.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gioenumtypes.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gioerror.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\giomodule.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\giomodule-priv.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gioscheduler.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\giostream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\giotypes.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gloadableicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocaldirectorymonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfile.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfileenumerator.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfileinfo.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfileinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfileiostream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfilemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalfileoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\glocalvfs.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmemoryinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmemoryoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmenu.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmenuexporter.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmenumodel.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmount.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmountoperation.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gmountprivate.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnativevolumemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworkaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworking.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworkingprivate.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworkmonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworkmonitorbase.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gnetworkservice.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\goutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpermission.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpollableinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpollableoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpollableutils.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpollfilemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gpropertyaction.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gproxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gproxyaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gproxyaddressenumerator.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gproxyresolver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gregistrysettingsbackend.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gremoteactiongroup.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gresolver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gresource.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gresourcefile.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gseekable.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettings.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettingsbackend.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettingsbackendinternal.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettings-mapping.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettingsschema.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsettingsschema-internal.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsimpleaction.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsimpleactiongroup.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsimpleasyncresult.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsimplepermission.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsimpleproxyresolver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocket.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketaddress.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketaddressenumerator.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketclient.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketconnectable.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketcontrolmessage.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketinputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketlistener.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketoutputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocketservice.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocks4aproxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocks4proxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsocks5proxy.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gsrvtarget.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtask.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtcpconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtcpwrapperconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtestdbus.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gthemedicon.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gthreadedresolver.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gthreadedsocketservice.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsbackend.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlscertificate.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsclientconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsdatabase.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsfiledatabase.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsinteraction.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlspassword.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gtlsserverconnection.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gunionvolumemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvfs.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvolume.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvolumemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gwin32appinfo.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gwin32inputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gwin32mount.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gwin32outputstream.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gwin32volumemonitor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gzlibcompressor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gzlibdecompressor.h">
+      <Filter>gio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.h">
+      <Filter>gio\fam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.h">
+      <Filter>gio\fam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.h">
+      <Filter>gio\fen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.h">
+      <Filter>gio\fen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvdb\gvdb-builder.h">
+      <Filter>gio\gvdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvdb\gvdb-format.h">
+      <Filter>gio\gvdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\gvdb\gvdb-reader.h">
+      <Filter>gio\gvdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\build\win32\dirent\dirent.h">
+      <Filter>build\win32\dirent</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
