@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "gst_vs.vcxproj\zlib
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libffi", "gst_vs.vcxproj\libffi.vcxproj", "{55640925-96DC-40C6-952E-C381C07B7AE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre", "gst_vs.vcxproj\pcre.vcxproj", "{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +59,10 @@ Global
 		{55640925-96DC-40C6-952E-C381C07B7AE8}.Debug|Win32.Build.0 = Debug|Win32
 		{55640925-96DC-40C6-952E-C381C07B7AE8}.Release|Win32.ActiveCfg = Release|Win32
 		{55640925-96DC-40C6-952E-C381C07B7AE8}.Release|Win32.Build.0 = Release|Win32
+		{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}.Debug|Win32.Build.0 = Debug|Win32
+		{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}.Release|Win32.ActiveCfg = Release|Win32
+		{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

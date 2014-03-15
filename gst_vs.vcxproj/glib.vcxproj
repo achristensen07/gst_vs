@@ -11,11 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\glib-2.38.0\gio\fam\fam-module.c" />
-    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.c" />
-    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.c" />
-    <ClCompile Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.c" />
-    <ClCompile Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.c" />
     <ClCompile Include="..\glib-2.38.0\gio\gaction.c" />
     <ClCompile Include="..\glib-2.38.0\gio\gactiongroup.c" />
     <ClCompile Include="..\glib-2.38.0\gio\gactiongroupexporter.c" />
@@ -197,6 +192,11 @@
     <ClCompile Include="..\glib-2.38.0\gio\gzlibcompressor.c" />
     <ClCompile Include="..\glib-2.38.0\gio\gzlibdecompressor.c" />
     <ClCompile Include="..\glib-2.38.0\gio\strinfo.c" />
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwin32directorymonitor.c" />
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfile.c" />
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfileinputstream.c" />
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfileoutputstream.c" />
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.c" />
     <ClCompile Include="..\glib-2.38.0\glib\docs.c" />
     <ClCompile Include="..\glib-2.38.0\glib\garray.c" />
     <ClCompile Include="..\glib-2.38.0\glib\gasyncqueue.c" />
@@ -313,10 +313,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\glib-2.38.0\config.h" />
-    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.h" />
-    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.h" />
-    <ClInclude Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.h" />
-    <ClInclude Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.h" />
     <ClInclude Include="..\glib-2.38.0\gio\gaction.h" />
     <ClInclude Include="..\glib-2.38.0\gio\gactiongroup.h" />
     <ClInclude Include="..\glib-2.38.0\gio\gactiongroupexporter.h" />
@@ -507,6 +503,11 @@
     <ClInclude Include="..\glib-2.38.0\gio\gwin32volumemonitor.h" />
     <ClInclude Include="..\glib-2.38.0\gio\gzlibcompressor.h" />
     <ClInclude Include="..\glib-2.38.0\gio\gzlibdecompressor.h" />
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwin32directorymonitor.h" />
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfile.h" />
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfileinputstream.h" />
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfileoutputstream.h" />
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.h" />
     <ClInclude Include="..\glib-2.38.0\glib\galloca.h" />
     <ClInclude Include="..\glib-2.38.0\glib\garray.h" />
     <ClInclude Include="..\glib-2.38.0\glib\gasyncqueue.h" />
@@ -690,7 +691,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>zlib.lib;libffi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Winmm.lib;libintl.lib;zlib.lib;libffi.lib;Ws2_32.lib;Iphlpapi.lib;Shlwapi.lib;Dnsapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutputPath)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -709,7 +710,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>zlib.dll;libffi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Winmm.lib;libintl.lib;zlib.dll;libffi.lib;Ws2_32.lib.lib;Iphlpapi.lib;Shlwapi.lib;Dnsapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutputPath)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

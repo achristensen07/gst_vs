@@ -13,14 +13,8 @@
     <Filter Include="gio">
       <UniqueIdentifier>{67fcc5c1-7752-4363-afef-e6f787e0cab5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="gio\fam">
-      <UniqueIdentifier>{52a99cb2-0a6f-454f-91ab-432edf5b63f7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="gio\gvdb">
       <UniqueIdentifier>{18838235-f556-4ea5-8502-509ebe541a11}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="gio\fen">
-      <UniqueIdentifier>{ecb187e2-f583-4d97-9a01-75d5de4cff47}</UniqueIdentifier>
     </Filter>
     <Filter Include="glib\gnulib">
       <UniqueIdentifier>{a1f78eec-deda-4676-9451-03c15cd82ec7}</UniqueIdentifier>
@@ -30,6 +24,9 @@
     </Filter>
     <Filter Include="gmodule">
       <UniqueIdentifier>{2dae7b3b-d622-46a8-98d0-04a98803f353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gio\win32">
+      <UniqueIdentifier>{73b5fdd4-1c22-47d4-a885-f0ab2b56fd0f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -870,21 +867,6 @@
     <ClCompile Include="..\glib-2.38.0\gio\strinfo.c">
       <Filter>gio</Filter>
     </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\fam\fam-module.c">
-      <Filter>gio\fam</Filter>
-    </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.c">
-      <Filter>gio\fam</Filter>
-    </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.c">
-      <Filter>gio\fam</Filter>
-    </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.c">
-      <Filter>gio\fen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.c">
-      <Filter>gio\fen</Filter>
-    </ClCompile>
     <ClCompile Include="..\glib-2.38.0\gio\gvdb\gvdb-builder.c">
       <Filter>gio\gvdb</Filter>
     </ClCompile>
@@ -920,6 +902,21 @@
     </ClCompile>
     <ClCompile Include="..\glib-2.38.0\glib\gdir.c">
       <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwin32directorymonitor.c">
+      <Filter>gio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfile.c">
+      <Filter>gio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfileinputstream.c">
+      <Filter>gio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpfileoutputstream.c">
+      <Filter>gio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.c">
+      <Filter>gio\win32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1846,18 +1843,6 @@
     <ClInclude Include="..\glib-2.38.0\gio\gzlibdecompressor.h">
       <Filter>gio</Filter>
     </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamdirectorymonitor.h">
-      <Filter>gio\fam</Filter>
-    </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\gio\fam\gfamfilemonitor.h">
-      <Filter>gio\fam</Filter>
-    </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\gio\fen\gfendirectorymonitor.h">
-      <Filter>gio\fen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\gio\fen\gfenfilemonitor.h">
-      <Filter>gio\fen</Filter>
-    </ClInclude>
     <ClInclude Include="..\glib-2.38.0\gio\gvdb\gvdb-builder.h">
       <Filter>gio\gvdb</Filter>
     </ClInclude>
@@ -1899,6 +1884,21 @@
     </ClInclude>
     <ClInclude Include="..\glib-2.38.0\glib\gdir.h">
       <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwin32directorymonitor.h">
+      <Filter>gio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfile.h">
+      <Filter>gio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfileinputstream.h">
+      <Filter>gio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpfileoutputstream.h">
+      <Filter>gio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.h">
+      <Filter>gio\win32</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
