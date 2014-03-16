@@ -4,6 +4,12 @@
     <Filter Include="gst">
       <UniqueIdentifier>{8d054a5b-c40b-47b5-ac98-b1b2dc0239bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="gst\printf">
+      <UniqueIdentifier>{21f6415e-5bea-47a1-acc2-88956bb6549c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gst\parse">
+      <UniqueIdentifier>{4eeb0016-87a7-4984-9e89-c798495e8f05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\gstreamer-1.2.1\gst\gst.c">
@@ -191,6 +197,30 @@
     </ClCompile>
     <ClCompile Include="..\gstreamer-1.2.1\gst\gstenumtypes.c">
       <Filter>gst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\asnprintf.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-args.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-extension.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-parse.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\vasnprintf.c">
+      <Filter>gst\printf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\parse\grammar.tab.c">
+      <Filter>gst\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gstreamer-1.2.1\gst\parse\lex.priv_gst_parse_yy.c">
+      <Filter>gst\parse</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -414,5 +444,29 @@
       <Filter>gst</Filter>
     </ClInclude>
     <ClInclude Include="..\gstreamer-1.2.1\config.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\gst-printf.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-args.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-extension.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-parse.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\vasnprintf.h">
+      <Filter>gst\printf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\parse\grammar.tab.h">
+      <Filter>gst\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gstreamer-1.2.1\gst\parse\types.h">
+      <Filter>gst\parse</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

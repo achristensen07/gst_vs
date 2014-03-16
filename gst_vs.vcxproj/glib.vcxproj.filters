@@ -108,9 +108,6 @@
     <ClCompile Include="..\glib-2.38.0\glib\gkeyfile.c">
       <Filter>glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\glib\glib-init.c">
-      <Filter>glib</Filter>
-    </ClCompile>
     <ClCompile Include="..\glib-2.38.0\glib\glib-private.c">
       <Filter>glib</Filter>
     </ClCompile>
@@ -567,9 +564,6 @@
     <ClCompile Include="..\glib-2.38.0\gio\gioerror.c">
       <Filter>gio</Filter>
     </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\gio\giomodule.c">
-      <Filter>gio</Filter>
-    </ClCompile>
     <ClCompile Include="..\glib-2.38.0\gio\gioscheduler.c">
       <Filter>gio</Filter>
     </ClCompile>
@@ -912,6 +906,12 @@
     <ClCompile Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.c">
       <Filter>gio\win32</Filter>
     </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\glib\glib-init.c">
+      <Filter>glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gio\giomodule.c">
+      <Filter>gio</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\glib-2.38.0\glib\galloca.h">
@@ -1017,9 +1017,6 @@
       <Filter>glib</Filter>
     </ClInclude>
     <ClInclude Include="..\glib-2.38.0\glib\glibconfig.h">
-      <Filter>glib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\glib\glib-init.h">
       <Filter>glib</Filter>
     </ClInclude>
     <ClInclude Include="..\glib-2.38.0\glib\glibintl.h">
@@ -1537,9 +1534,6 @@
     <ClInclude Include="..\glib-2.38.0\gio\gioerror.h">
       <Filter>gio</Filter>
     </ClInclude>
-    <ClInclude Include="..\glib-2.38.0\gio\giomodule.h">
-      <Filter>gio</Filter>
-    </ClInclude>
     <ClInclude Include="..\glib-2.38.0\gio\giomodule-priv.h">
       <Filter>gio</Filter>
     </ClInclude>
@@ -1893,6 +1887,12 @@
     </ClInclude>
     <ClInclude Include="..\glib-2.38.0\gio\win32\gwinhttpvfs.h">
       <Filter>gio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\glib\glib-init.h">
+      <Filter>glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gio\giomodule.h">
+      <Filter>gio</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

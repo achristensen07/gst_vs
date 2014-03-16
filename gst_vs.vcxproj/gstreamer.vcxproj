@@ -73,6 +73,14 @@
     <ClCompile Include="..\gstreamer-1.2.1\gst\gsturi.c" />
     <ClCompile Include="..\gstreamer-1.2.1\gst\gstutils.c" />
     <ClCompile Include="..\gstreamer-1.2.1\gst\gstvalue.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\parse\grammar.tab.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\parse\lex.priv_gst_parse_yy.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\asnprintf.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-args.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-extension.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf-parse.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\printf.c" />
+    <ClCompile Include="..\gstreamer-1.2.1\gst\printf\vasnprintf.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\gstreamer-1.2.1\config.h" />
@@ -149,6 +157,14 @@
     <ClInclude Include="..\gstreamer-1.2.1\gst\gstversion.h" />
     <ClInclude Include="..\gstreamer-1.2.1\gst\gst_private.h" />
     <ClInclude Include="..\gstreamer-1.2.1\gst\math-compat.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\parse\grammar.tab.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\parse\types.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\gst-printf.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-args.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-extension.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf-parse.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\printf.h" />
+    <ClInclude Include="..\gstreamer-1.2.1\gst\printf\vasnprintf.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{ED325D74-9C78-442B-85D9-3EAF2989662A}</ProjectGuid>
@@ -199,7 +215,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(OutDir)glib.lib;$(OutDir)libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;$(OutDir)glib.lib;$(OutDir)libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

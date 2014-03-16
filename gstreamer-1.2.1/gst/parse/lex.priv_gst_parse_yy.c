@@ -1,8 +1,8 @@
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
-static inline int priv_gst_parse_yyget_column  (void * yyscanner);
-static inline void priv_gst_parse_yyset_column (int  column_no , void * yyscanner);
+static __forceinline int priv_gst_parse_yyget_column  (void * yyscanner);
+static __forceinline void priv_gst_parse_yyset_column(int  column_no, void * yyscanner);
 
 #line 3 "lex.priv_gst_parse_yy.c"
 
@@ -58,7 +58,6 @@ typedef int flex_int32_t;
 typedef unsigned char flex_uint8_t; 
 typedef unsigned short int flex_uint16_t;
 typedef unsigned int flex_uint32_t;
-#endif /* ! C99 */
 
 /* Limits of integral types. */
 #ifndef INT8_MIN
@@ -88,6 +87,8 @@ typedef unsigned int flex_uint32_t;
 #ifndef UINT32_MAX
 #define UINT32_MAX             (4294967295U)
 #endif
+
+#endif /* ! C99 */
 
 #endif /* ! FLEXINT_H */
 
@@ -162,7 +163,15 @@ typedef void* yyscan_t;
 
 /* Size of default input buffer. */
 #ifndef YY_BUF_SIZE
+#ifdef __ia64__
+/* On IA-64, the buffer size is 16k, not 8k.
+ * Moreover, YY_BUF_SIZE is 2*YY_READ_BUF_SIZE in the general case.
+ * Ditto for the __ia64__ case accordingly.
+ */
+#define YY_BUF_SIZE 32768
+#else
 #define YY_BUF_SIZE 16384
+#endif /* __ia64__ */
 #endif
 
 /* The state buf must be large enough to hold one state per character in the main buffer.
@@ -917,7 +926,7 @@ PRINT (const char *format, ...)
 /* links */
 
 #define YY_NO_INPUT 1
-#line 916 "lex.priv_gst_parse_yy.c"
+#line 925 "lex.priv_gst_parse_yy.c"
 
 #define INITIAL 0
 #define value 1
@@ -927,7 +936,7 @@ PRINT (const char *format, ...)
  * down here because we want the user's section 1 to have been scanned first.
  * The user has a chance to override it with an option.
  */
-#include <unistd.h>
+//#include <unistd.h>
 #endif
 
 #ifndef YY_EXTRA_TYPE
@@ -1045,7 +1054,12 @@ static int input (yyscan_t yyscanner );
 
 /* Amount of stuff to slurp up with each read. */
 #ifndef YY_READ_BUF_SIZE
+#ifdef __ia64__
+/* On IA-64, the buffer size is 16k, not 8k */
+#define YY_READ_BUF_SIZE 16384
+#else
 #define YY_READ_BUF_SIZE 8192
+#endif /* __ia64__ */
 #endif
 
 /* Copy whatever the last rule matched to the standard output. */
@@ -1053,7 +1067,7 @@ static int input (yyscan_t yyscanner );
 /* This used to be an fputs(), but since the string might contain NUL's,
  * we now use fwrite().
  */
-#define ECHO fwrite( yytext, yyleng, 1, yyout )
+#define ECHO do { if (fwrite( yytext, yyleng, 1, yyout )) {} } while (0)
 #endif
 
 /* Gets input and stuffs it into "buf".  number of characters read, or YY_NULL,
@@ -1064,7 +1078,7 @@ static int input (yyscan_t yyscanner );
 	if ( YY_CURRENT_BUFFER_LVALUE->yy_is_interactive ) \
 		{ \
 		int c = '*'; \
-		int n; \
+		size_t n; \
 		for ( n = 0; n < max_size && \
 			     (c = getc( yyin )) != EOF && c != '\n'; ++n ) \
 			buf[n] = (char) c; \
@@ -1152,7 +1166,7 @@ YY_DECL
 #line 71 "parse.l"
 
 
-#line 1151 "lex.priv_gst_parse_yy.c"
+#line 1165 "lex.priv_gst_parse_yy.c"
 
     yylval = yylval_param;
 
@@ -1349,7 +1363,7 @@ YY_RULE_SETUP
 #line 148 "parse.l"
 ECHO;
 	YY_BREAK
-#line 1348 "lex.priv_gst_parse_yy.c"
+#line 1362 "lex.priv_gst_parse_yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(value):
 	yyterminate();
@@ -2081,8 +2095,8 @@ YY_BUFFER_STATE priv_gst_parse_yy_scan_string (yyconst char * yystr , yyscan_t y
 
 /** Setup the input buffer state to scan the given bytes. The next call to priv_gst_parse_yylex() will
  * scan from a @e copy of @a bytes.
- * @param bytes the byte buffer to scan
- * @param len the number of bytes in the buffer pointed to by @a bytes.
+ * @param yybytes the byte buffer to scan
+ * @param _yybytes_len the number of bytes in the buffer pointed to by @a bytes.
  * @param yyscanner The scanner object.
  * @return the newly allocated buffer state object.
  */

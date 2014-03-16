@@ -1,3 +1,6 @@
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
 /* A Bison parser, made by GNU Bison 2.7.12-4996.  */
 
 /* Bison implementation for Yacc-like parsers in C
@@ -59,11 +62,18 @@
 #define YYPULL 1
 
 
-
+/* Substitute the variable and function names.  */
+#define yyparse         priv_gst_parse_yyparse
+#define yylex           priv_gst_parse_yylex
+#define yyerror         priv_gst_parse_yyerror
+#define yylval          priv_gst_parse_yylval
+#define yychar          priv_gst_parse_yychar
+#define yydebug         priv_gst_parse_yydebug
+#define yynerrs         priv_gst_parse_yynerrs
 
 /* Copy the first part of user declarations.  */
 /* Line 371 of yacc.c  */
-#line 1 "grammar.y"
+#line 1 "./grammar.y"
 
 #include "../gst_private.h"
 
@@ -696,7 +706,7 @@ error:
 static int yyerror (void *scanner, graph_t *graph, const char *s);
 
 /* Line 371 of yacc.c  */
-#line 700 "grammar.tab.c"
+#line 707 "grammar.tab.c"
 
 # ifndef YY_NULL
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -714,13 +724,16 @@ static int yyerror (void *scanner, graph_t *graph, const char *s);
 # define YYERROR_VERBOSE 0
 #endif
 
-
+/* In a future release of Bison, this section will be replaced
+   by #include "grammar.tab.h".  */
+#ifndef YY_PRIV_GST_PARSE_YY_GRAMMAR_TAB_H_INCLUDED
+# define YY_PRIV_GST_PARSE_YY_GRAMMAR_TAB_H_INCLUDED
 /* Enabling traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
 #endif
 #if YYDEBUG
-extern int yydebug;
+extern int priv_gst_parse_yydebug;
 #endif
 
 /* Tokens.  */
@@ -744,7 +757,7 @@ extern int yydebug;
 typedef union YYSTYPE
 {
 /* Line 387 of yacc.c  */
-#line 633 "grammar.y"
+#line 633 "./grammar.y"
 
     gchar *s;
     chain_t *c;
@@ -755,7 +768,7 @@ typedef union YYSTYPE
 
 
 /* Line 387 of yacc.c  */
-#line 759 "grammar.tab.c"
+#line 769 "grammar.tab.c"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
@@ -765,24 +778,24 @@ typedef union YYSTYPE
 
 #ifdef YYPARSE_PARAM
 #if defined __STDC__ || defined __cplusplus
-int yyparse (void *YYPARSE_PARAM);
+int priv_gst_parse_yyparse (void *YYPARSE_PARAM);
 #else
-int yyparse ();
+int priv_gst_parse_yyparse ();
 #endif
 #else /* ! YYPARSE_PARAM */
 #if defined __STDC__ || defined __cplusplus
-int yyparse (void *scanner, graph_t *graph);
+int priv_gst_parse_yyparse (void *scanner, graph_t *graph);
 #else
-int yyparse ();
+int priv_gst_parse_yyparse ();
 #endif
 #endif /* ! YYPARSE_PARAM */
 
-
+#endif /* !YY_PRIV_GST_PARSE_YY_GRAMMAR_TAB_H_INCLUDED  */
 
 /* Copy the second part of user declarations.  */
 
 /* Line 390 of yacc.c  */
-#line 786 "grammar.tab.c"
+#line 796 "grammar.tab.c"
 
 #ifdef short
 # undef short
@@ -2055,7 +2068,7 @@ yyreduce:
     {
         case 2:
 /* Line 1787 of yacc.c  */
-#line 669 "grammar.y"
+#line 669 "./grammar.y"
     { (yyval.e) = gst_element_factory_make ((yyvsp[(1) - (1)].s), NULL);
 						if ((yyval.e) == NULL) {
 						  ADD_MISSING_ELEMENT (graph, (yyvsp[(1) - (1)].s));
@@ -2074,7 +2087,7 @@ yyreduce:
 
   case 3:
 /* Line 1787 of yacc.c  */
-#line 683 "grammar.y"
+#line 683 "./grammar.y"
     { gst_parse_element_set ((yyvsp[(2) - (2)].s), (yyvsp[(1) - (2)].e), graph);
 						(yyval.e) = (yyvsp[(1) - (2)].e);
 	                                      }
@@ -2082,25 +2095,25 @@ yyreduce:
 
   case 4:
 /* Line 1787 of yacc.c  */
-#line 687 "grammar.y"
+#line 687 "./grammar.y"
     { (yyval.p) = NULL; }
     break;
 
   case 5:
 /* Line 1787 of yacc.c  */
-#line 688 "grammar.y"
+#line 688 "./grammar.y"
     { (yyval.p) = g_slist_prepend ((yyvsp[(1) - (2)].p), (yyvsp[(2) - (2)].s)); }
     break;
 
   case 6:
 /* Line 1787 of yacc.c  */
-#line 690 "grammar.y"
+#line 690 "./grammar.y"
     { GST_BIN_MAKE ((yyval.c), "bin", (yyvsp[(3) - (4)].c), (yyvsp[(2) - (4)].p), no_free); }
     break;
 
   case 7:
 /* Line 1787 of yacc.c  */
-#line 691 "grammar.y"
+#line 691 "./grammar.y"
     { GST_BIN_MAKE ((yyval.c), (yyvsp[(1) - (4)].s), (yyvsp[(3) - (4)].c), (yyvsp[(2) - (4)].p), gst_parse_strfree);
 						gst_parse_strfree ((yyvsp[(1) - (4)].s));
 					      }
@@ -2108,7 +2121,7 @@ yyreduce:
 
   case 8:
 /* Line 1787 of yacc.c  */
-#line 694 "grammar.y"
+#line 694 "./grammar.y"
     { GST_BIN_MAKE ((yyval.c), (yyvsp[(1) - (3)].s), NULL, (yyvsp[(2) - (3)].p), gst_parse_strfree);
 						gst_parse_strfree ((yyvsp[(1) - (3)].s));
 					      }
@@ -2116,7 +2129,7 @@ yyreduce:
 
   case 9:
 /* Line 1787 of yacc.c  */
-#line 697 "grammar.y"
+#line 697 "./grammar.y"
     { GST_BIN_MAKE ((yyval.c), (yyvsp[(1) - (4)].s), NULL, (yyvsp[(2) - (4)].p), gst_parse_strfree);
 						gst_parse_strfree ((yyvsp[(1) - (4)].s));
 					      }
@@ -2124,13 +2137,13 @@ yyreduce:
 
   case 10:
 /* Line 1787 of yacc.c  */
-#line 702 "grammar.y"
+#line 702 "./grammar.y"
     { (yyval.p) = g_slist_prepend (NULL, (yyvsp[(1) - (1)].s)); }
     break;
 
   case 11:
 /* Line 1787 of yacc.c  */
-#line 703 "grammar.y"
+#line 703 "./grammar.y"
     { (yyval.p) = (yyvsp[(2) - (2)].p);
 						(yyval.p) = g_slist_prepend ((yyval.p), (yyvsp[(1) - (2)].s));
 					      }
@@ -2138,49 +2151,49 @@ yyreduce:
 
   case 12:
 /* Line 1787 of yacc.c  */
-#line 707 "grammar.y"
+#line 707 "./grammar.y"
     { (yyval.p) = g_slist_prepend (NULL, (yyvsp[(2) - (2)].s)); }
     break;
 
   case 13:
 /* Line 1787 of yacc.c  */
-#line 708 "grammar.y"
+#line 708 "./grammar.y"
     { (yyval.p) = g_slist_prepend ((yyvsp[(3) - (3)].p), (yyvsp[(2) - (3)].s)); }
     break;
 
   case 14:
 /* Line 1787 of yacc.c  */
-#line 711 "grammar.y"
+#line 711 "./grammar.y"
     { MAKE_REF ((yyval.l), (yyvsp[(1) - (1)].s), NULL); }
     break;
 
   case 15:
 /* Line 1787 of yacc.c  */
-#line 712 "grammar.y"
+#line 712 "./grammar.y"
     { MAKE_REF ((yyval.l), (yyvsp[(1) - (2)].s), (yyvsp[(2) - (2)].p)); }
     break;
 
   case 16:
 /* Line 1787 of yacc.c  */
-#line 715 "grammar.y"
+#line 715 "./grammar.y"
     { (yyval.l) = (yyvsp[(1) - (1)].l); }
     break;
 
   case 17:
 /* Line 1787 of yacc.c  */
-#line 716 "grammar.y"
+#line 716 "./grammar.y"
     { MAKE_REF ((yyval.l), NULL, (yyvsp[(1) - (1)].p)); }
     break;
 
   case 18:
 /* Line 1787 of yacc.c  */
-#line 717 "grammar.y"
+#line 717 "./grammar.y"
     { MAKE_REF ((yyval.l), NULL, NULL); }
     break;
 
   case 19:
 /* Line 1787 of yacc.c  */
-#line 720 "grammar.y"
+#line 720 "./grammar.y"
     { (yyval.l) = (yyvsp[(1) - (3)].l);
 						if ((yyvsp[(2) - (3)].s)) {
 						  (yyval.l)->caps = gst_caps_from_string ((yyvsp[(2) - (3)].s));
@@ -2196,25 +2209,25 @@ yyreduce:
 
   case 20:
 /* Line 1787 of yacc.c  */
-#line 733 "grammar.y"
+#line 733 "./grammar.y"
     { (yyval.p) = g_slist_prepend (NULL, (yyvsp[(1) - (1)].l)); }
     break;
 
   case 21:
 /* Line 1787 of yacc.c  */
-#line 734 "grammar.y"
+#line 734 "./grammar.y"
     { (yyval.p) = g_slist_prepend ((yyvsp[(2) - (2)].p), (yyvsp[(1) - (2)].l)); }
     break;
 
   case 22:
 /* Line 1787 of yacc.c  */
-#line 735 "grammar.y"
+#line 735 "./grammar.y"
     { (yyval.p) = (yyvsp[(1) - (2)].p); }
     break;
 
   case 23:
 /* Line 1787 of yacc.c  */
-#line 738 "grammar.y"
+#line 738 "./grammar.y"
     { (yyval.c) = gst_parse_chain_new ();
 						(yyval.c)->first = (yyval.c)->last = (yyvsp[(1) - (1)].e);
 						(yyval.c)->front = (yyval.c)->back = NULL;
@@ -2224,13 +2237,13 @@ yyreduce:
 
   case 24:
 /* Line 1787 of yacc.c  */
-#line 743 "grammar.y"
+#line 743 "./grammar.y"
     { (yyval.c) = (yyvsp[(1) - (1)].c); }
     break;
 
   case 25:
 /* Line 1787 of yacc.c  */
-#line 744 "grammar.y"
+#line 744 "./grammar.y"
     { if ((yyvsp[(1) - (2)].c)->back && (yyvsp[(2) - (2)].c)->front) {
 						  if (!(yyvsp[(1) - (2)].c)->back->sink_name) {
 						    SET_ERROR (graph->error, GST_PARSE_ERROR_LINK, _("link without source element"));
@@ -2270,7 +2283,7 @@ yyreduce:
 
   case 26:
 /* Line 1787 of yacc.c  */
-#line 779 "grammar.y"
+#line 779 "./grammar.y"
     { GSList *walk;
 						if ((yyvsp[(1) - (2)].c)->back) {
 						  (yyvsp[(2) - (2)].p) = g_slist_prepend ((yyvsp[(2) - (2)].p), (yyvsp[(1) - (2)].c)->back);
@@ -2303,13 +2316,13 @@ yyreduce:
 
   case 27:
 /* Line 1787 of yacc.c  */
-#line 807 "grammar.y"
+#line 807 "./grammar.y"
     { (yyval.c) = (yyvsp[(1) - (2)].c); }
     break;
 
   case 28:
 /* Line 1787 of yacc.c  */
-#line 808 "grammar.y"
+#line 808 "./grammar.y"
     { if ((yyvsp[(2) - (2)].c)->front) {
 						  if (!(yyvsp[(2) - (2)].c)->front->src_name) {
 						    SET_ERROR (graph->error, GST_PARSE_ERROR_LINK, _("link without source element"));
@@ -2328,7 +2341,7 @@ yyreduce:
 
   case 29:
 /* Line 1787 of yacc.c  */
-#line 822 "grammar.y"
+#line 822 "./grammar.y"
     { (yyval.c) = (yyvsp[(2) - (2)].c);
 						if ((yyval.c)->front) {
 						  GstElement *element =
@@ -2354,7 +2367,7 @@ yyreduce:
 
   case 30:
 /* Line 1787 of yacc.c  */
-#line 843 "grammar.y"
+#line 843 "./grammar.y"
     { GstElement *element =
 							  gst_element_make_from_uri (GST_URI_SINK, (yyvsp[(2) - (2)].s), NULL, NULL);
 						/* FIXME: get and parse error properly */
@@ -2384,7 +2397,7 @@ yyreduce:
 
   case 31:
 /* Line 1787 of yacc.c  */
-#line 869 "grammar.y"
+#line 869 "./grammar.y"
     { SET_ERROR (graph->error, GST_PARSE_ERROR_EMPTY, _("empty pipeline not allowed"));
 						(yyval.g) = graph;
 					      }
@@ -2392,7 +2405,7 @@ yyreduce:
 
   case 32:
 /* Line 1787 of yacc.c  */
-#line 872 "grammar.y"
+#line 872 "./grammar.y"
     { (yyval.g) = graph;
 						if ((yyvsp[(1) - (1)].c)->front) {
 						  if (!(yyvsp[(1) - (1)].c)->front->src_name) {
@@ -2418,7 +2431,7 @@ yyreduce:
 
 
 /* Line 1787 of yacc.c  */
-#line 2422 "grammar.tab.c"
+#line 2432 "grammar.tab.c"
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -2650,7 +2663,7 @@ yyreturn:
 
 
 /* Line 2050 of yacc.c  */
-#line 895 "grammar.y"
+#line 895 "./grammar.y"
 
 
 
