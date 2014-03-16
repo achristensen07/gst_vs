@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_byte_order.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_chartables.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_compile.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_config.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_dfa_exec.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_exec.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_fullinfo.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_get.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_globals.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_jit_compile.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_newline.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_ord2utf8.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_string_utils.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_study.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_tables.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_valid_utf8.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_xclass.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\config.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\pcre.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\pcre_internal.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\ucp.h" />
+  </ItemGroup>
+</Project>

@@ -126,7 +126,7 @@ switch (what)
   break;
 
   case PCRE_CONFIG_NEWLINE:
-  *((int *)where) = NEWLINE;
+  *((int *)where) = '\n';
   break;
 
   case PCRE_CONFIG_BSR:

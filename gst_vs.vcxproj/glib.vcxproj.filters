@@ -183,12 +183,6 @@
     <ClCompile Include="..\glib-2.38.0\glib\gspawn-win32.c">
       <Filter>glib</Filter>
     </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\glib\gspawn-win32-helper.c">
-      <Filter>glib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\glib-2.38.0\glib\gspawn-win64-helper.c">
-      <Filter>glib</Filter>
-    </ClCompile>
     <ClCompile Include="..\glib-2.38.0\glib\gstdio.c">
       <Filter>glib</Filter>
     </ClCompile>

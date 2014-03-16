@@ -212,7 +212,7 @@ main (int ignored_argc, char **ignored_argv)
   GSList *fd_toclose = NULL;
   GSList *last_item = NULL;
 
-#if (defined (_MSC_VER) && _MSC_VER >= 1400)
+#if (defined (_MSC_VER) && _MSC_VER >= 1400 && defined(_DEBUG)) && 0
   /* set up our empty invalid parameter handler */
   _invalid_parameter_handler oldHandler, newHandler;
   newHandler = myInvalidParameterHandler;

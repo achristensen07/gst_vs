@@ -11,51 +11,51 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libffi-3.0.13\src\closures.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\debug.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\java_raw_api.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\prep_cif.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\raw_api.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\types.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi.c" />
-    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi64.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_byte_order.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_chartables.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_compile.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_config.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_dfa_exec.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_exec.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_fullinfo.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_get.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_globals.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_jit_compile.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_newline.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_ord2utf8.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_string_utils.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_study.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_tables.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_valid_utf8.c" />
+    <ClCompile Include="..\glib-2.38.0\glib\pcre\pcre_xclass.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\libffi-3.0.13\include\ffi.h" />
-    <ClInclude Include="..\libffi-3.0.13\include\ffi_common.h" />
-    <ClInclude Include="..\libffi-3.0.13\src\x86\ffitarget.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <MASM Include="..\libffi-3.0.13\src\x86\win32.asm">
-      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">0</WarningLevel>
-      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">0</WarningLevel>
-    </MASM>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\libffi-3.0.13\libffi.def" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\config.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\pcre.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\pcre_internal.h" />
+    <ClInclude Include="..\glib-2.38.0\glib\pcre\ucp.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{55640925-96DC-40C6-952E-C381C07B7AE8}</ProjectGuid>
+    <ProjectGuid>{6A1ECA2D-9B28-45CC-A3AD-81399ED1365A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>libffi</RootNamespace>
+    <RootNamespace>pcre</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -78,13 +78,12 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>FFI_BUILDING;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LINK_SIZE=2;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0\glib\pcre;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>$(ProjectDir)..\libffi-3.0.13\libffi.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -95,20 +94,17 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>FFI_BUILDING;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;LINK_SIZE=2;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0\glib\pcre;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ModuleDefinitionFile>$(ProjectDir)..\libffi-3.0.13\libffi.def</ModuleDefinitionFile>
-      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>
