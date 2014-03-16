@@ -900,7 +900,7 @@ extern GType _g_network_monitor_netlink_get_type (void);
 
 static HMODULE gio_dll = NULL;
 
-#ifdef DLL_EXPORT
+#if 0
 
 BOOL WINAPI DllMain (HINSTANCE hinstDLL,
                      DWORD     fdwReason,

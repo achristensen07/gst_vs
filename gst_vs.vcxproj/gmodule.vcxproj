@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule-win32.c" />
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib-2.38.0\config.h" />
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmodule.h" />
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmoduleconf.h" />
+    <ClInclude Include="..\glib-2.38.0\msvc_recommended_pragmas.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4558D6C7-C03B-4FA8-BF5B-1E40DCD6016D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gmodule</RootNamespace>
+    <ProjectName>gmodule</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DLL_EXPORT;HAVE_CONFIG;PCRE_STATIC;LIBDIR;LINK_SIZE=2;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glib.lib;pcre.lib;Winmm.lib;libintl.lib;zlib.lib;libffi.lib;Ws2_32.lib;Iphlpapi.lib;Shlwapi.lib;Dnsapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutputPath)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>DLL_EXPORT;HAVE_CONFIG;PCRE_STATIC;LIBDIR;LINK_SIZE=2;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glib.lib;pcre.lib;Winmm.lib;libintl.lib;zlib.lib;libffi.lib;Ws2_32.lib;Iphlpapi.lib;Shlwapi.lib;Dnsapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutputPath)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

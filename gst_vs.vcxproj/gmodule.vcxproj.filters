@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gmodule">
+      <UniqueIdentifier>{2dae7b3b-d622-46a8-98d0-04a98803f353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule.c">
+      <Filter>gmodule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gmodule\gmodule-win32.c">
+      <Filter>gmodule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib-2.38.0\config.h" />
+    <ClInclude Include="..\glib-2.38.0\msvc_recommended_pragmas.h" />
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmodule.h">
+      <Filter>gmodule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gmodule\gmoduleconf.h">
+      <Filter>gmodule</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

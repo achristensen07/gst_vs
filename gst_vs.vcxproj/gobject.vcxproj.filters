@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gobject">
+      <UniqueIdentifier>{6b1ce4a6-90e4-4345-932d-559d683c6c32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glib-2.38.0\gobject\gatomicarray.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gbinding.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gboxed.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\genums.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gmarshal.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gobject.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gobjectnotifyqueue.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gparam.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gparamspecs.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gsignal.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gsourceclosure.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtype.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtypemodule.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gtypeplugin.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvalue.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluearray.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluetransform.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gvaluetypes.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glib-2.38.0\gobject\gclosure.c">
+      <Filter>gobject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glib-2.38.0\config.h" />
+    <ClInclude Include="..\glib-2.38.0\msvc_recommended_pragmas.h" />
+    <ClInclude Include="..\glib-2.38.0\gobject\gatomicarray.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gbinding.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gboxed.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\genums.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\glib-types.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gmarshal.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gobject.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gobject_trace.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gparam.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gparamspecs.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gsignal.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gsourceclosure.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtype.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtypemodule.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtypeplugin.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gtype-private.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvalue.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluearray.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluecollector.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gvaluetypes.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glib-2.38.0\gobject\gclosure.h">
+      <Filter>gobject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
