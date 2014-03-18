@@ -5,6 +5,17 @@
 #define HAVE_RINT 1
 #define HAVE_COMMANDLINETOARGVW 1
 #define HAVE_WINSOCK2_H 1
+#define HAVE_STRUCT_SOCKADDR_STORAGE 1
+#define HAVE_STRUCT_ADDRINFO 1
+#define LIBAV_CONFIGURATION ""
+#define CONFIG_AVFORMAT 1
+#define CONFIG_AVDEVICE 1
+#define CONFIG_AVUTIL 1
+#define CONFIG_AVCODEC 1
+#define CONFIG_AVFILTER 1
+#define CONFIG_AVRESAMPLE 1
+#define CONFIG_SWSCALE 1
+#define CC_IDENT ""
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -76,7 +87,7 @@
 #define HAVE_CPU_X86_64 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#define HAVE_DLFCN_H 1
+/* #undef HAVE_DLFCN_H 1*/
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1

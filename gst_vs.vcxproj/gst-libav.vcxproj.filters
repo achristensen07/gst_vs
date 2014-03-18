@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ext">
+      <UniqueIdentifier>{0462c4b7-02f4-42bf-8631-3e32808eb959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\libav">
+      <UniqueIdentifier>{5eda7fbb-d465-470c-9f16-2b304584a068}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstav.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavauddec.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavaudenc.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavcfg.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavcodecmap.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavdeinterlace.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavdemux.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavmux.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavprotocol.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavutils.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavviddec.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavvidenc.c">
+      <Filter>ext\libav</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstav.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavauddec.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavaudenc.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavcfg.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavcodecmap.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavprotocol.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavutils.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavviddec.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavvidenc.h">
+      <Filter>ext\libav</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -52,13 +52,17 @@
 #include <unistd.h>
 #endif
 #include <fcntl.h>
+#if HAVE_SYS_IOCTL_H
 #include <sys/ioctl.h>
+#endif
 #if HAVE_POLL_H
 #include <poll.h>
 #endif
 #include <errno.h>
 #include <time.h>
+#if HAVE_SYS_WAIT_H
 #include <sys/wait.h>
+#endif
 #include <signal.h>
 #if HAVE_DLFCN_H
 #include <dlfcn.h>
@@ -69,7 +73,7 @@
 const char program_name[] = "avserver";
 const int program_birth_year = 2000;
 
-static const OptionDef options[];
+static const OptionDef* options;
 
 enum HTTPState {
     HTTPSTATE_WAIT_REQUEST,

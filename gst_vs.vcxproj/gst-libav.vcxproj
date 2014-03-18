@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstav.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavauddec.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavaudenc.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavcfg.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavcodecmap.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavdeinterlace.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavdemux.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavmux.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavprotocol.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavutils.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavviddec.c" />
+    <ClCompile Include="..\gst-libav-1.2.1\ext\libav\gstavvidenc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstav.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavauddec.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavaudenc.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavcfg.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavcodecmap.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavprotocol.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavutils.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavviddec.h" />
+    <ClInclude Include="..\gst-libav-1.2.1\ext\libav\gstavvidenc.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6426799-DF02-49E3-88C0-C67BE42C932A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gstreamer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>HAVE_ISINF;HAVE_ISNAN;AVCONV_DATADIR="";GST_EXPORTS;HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1\libs;$(ProjectDir)..\gst-plugins-base-1.2.1\gst-libs;$(ProjectDir)..\gst-libav-1.2.1;$(ProjectDir)..\gst-libav-1.2.1\gst-libs\ext\libav;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\gst-plugins-base-1.2.1\win32\common;$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gstreamer.lib;gmodule.lib;gobject.lib;Ws2_32.lib;glib.lib;libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>HAVE_ISINF=1;HAVE_ISNAN=1;AVCONV_DATADIR="";GST_EXPORTS;HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1\libs;$(ProjectDir)..\gst-plugins-base-1.2.1\gst-libs;$(ProjectDir)..\gst-libav-1.2.1;$(ProjectDir)..\gst-libav-1.2.1\gst-libs\ext\libav;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\gst-plugins-base-1.2.1\win32\common;$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gstreamer.lib;gmodule.lib;gobject.lib;Ws2_32.lib;glib.lib;libintl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
