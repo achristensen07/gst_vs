@@ -416,7 +416,7 @@ G_STMT_START {                                                          \
     GST_WARNING_OBJECT (el, "error: %s", __dbg);                        \
   gst_element_message_full (GST_ELEMENT(el), GST_MESSAGE_ERROR,         \
     GST_ ## domain ## _ERROR, GST_ ## domain ## _ERROR_ ## code,        \
-    __txt, __dbg, __FILE__, GST_FUNCTION, __LINE__);                    \
+	__txt, __dbg, __FILE__, ((const char*)(__FUNCTION__)), __LINE__);                    \
 } G_STMT_END
 
 /**

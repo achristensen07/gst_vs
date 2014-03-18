@@ -39,6 +39,7 @@
 #endif /* defined(__MINGW32__) && !defined(__MINGW32CE__) */
 
 #ifdef _WIN32
+#define HAVE_DOS_PATHS 1
 #if HAVE_DIRECT_H
 #include <direct.h>
 #elif HAVE_IO_H
@@ -49,7 +50,7 @@
 #include <sys/stat.h>
 #endif
 
-static inline int is_dos_path(const char *path)
+static __forceinline int is_dos_path(const char *path)
 {
 #if HAVE_DOS_PATHS
     if (path[0] && path[1] == ':')

@@ -23,7 +23,7 @@
 #define __GST_AUDIO_AUDIO_H__
 
 #include <gst/gst.h>
-#include <gst/audio/audio-enumtypes.h>
+#include <audio-enumtypes.h>
 #include <gst/audio/audio-format.h>
 #include <gst/audio/audio-channels.h>
 #include <gst/audio/audio-info.h>

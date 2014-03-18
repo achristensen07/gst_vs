@@ -144,7 +144,7 @@ plugin_init (GstPlugin * plugin)
   /* Now we can return the pointer to the newly created Plugin object. */
   return TRUE;
 }
-
+/*
 GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
     GST_VERSION_MINOR,
     libav,
@@ -156,3 +156,4 @@ GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
     "GPL",
 #endif
     "libav", "http://www.libav.org")
+	*/

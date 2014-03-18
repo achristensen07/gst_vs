@@ -521,7 +521,7 @@ GST_EXPORT GstDebugLevel            _gst_debug_min;
 #ifdef G_HAVE_ISO_VARARGS
 #define GST_CAT_LEVEL_LOG(cat,level,object,...) G_STMT_START{		\
   if (G_UNLIKELY (level <= _gst_debug_min)) {						\
-    gst_debug_log ((cat), (level), __FILE__, GST_FUNCTION, __LINE__,	\
+  gst_debug_log((cat), (level), __FILE__, ((const char*)(__FUNCTION__)), __LINE__, \
         (GObject *) (object), __VA_ARGS__);				\
   }									\
 }G_STMT_END
@@ -529,7 +529,7 @@ GST_EXPORT GstDebugLevel            _gst_debug_min;
 #ifdef G_HAVE_GNUC_VARARGS
 #define GST_CAT_LEVEL_LOG(cat,level,object,args...) G_STMT_START{	\
   if (G_UNLIKELY (level <= _gst_debug_min)) {						\
-    gst_debug_log ((cat), (level), __FILE__, GST_FUNCTION, __LINE__,	\
+  gst_debug_log ((cat), (level), __FILE__, ((const char*) (__FUNCTION__)), __LINE__,	\
         (GObject *) (object), ##args );					\
   }									\
 }G_STMT_END

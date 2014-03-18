@@ -20,7 +20,7 @@
 #ifndef __GST_VIDEO_FRAME_H__
 #define __GST_VIDEO_FRAME_H__
 
-#include <gst/video/video-enumtypes.h>
+#include <video-enumtypes.h>
 
 G_BEGIN_DECLS
 

@@ -139,7 +139,7 @@ char *av_get_token(const char **buf, const char *term);
 /**
  * Locale-independent conversion of ASCII characters to uppercase.
  */
-static inline int av_toupper(int c)
+static __forceinline int av_toupper(int c)
 {
     if (c >= 'a' && c <= 'z')
         c ^= 0x20;
@@ -149,7 +149,7 @@ static inline int av_toupper(int c)
 /**
  * Locale-independent conversion of ASCII characters to lowercase.
  */
-static inline int av_tolower(int c)
+static __forceinline int av_tolower(int c)
 {
     if (c >= 'A' && c <= 'Z')
         c ^= 0x20;
