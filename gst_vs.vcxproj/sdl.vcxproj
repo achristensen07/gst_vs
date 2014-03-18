@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SDL-1.2.15\src\audio\disk\SDL_diskaudio.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_audio.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_audiocvt.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_audiodev.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_mixer.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_mixer_m68k.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_mixer_MMX.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_mixer_MMX_VC.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\SDL_wave.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\audio\windib\SDL_dibaudio.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\cdrom\SDL_cdrom.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\cdrom\win32\SDL_syscdrom.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\cpuinfo\SDL_cpuinfo.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_active.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_events.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_expose.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_keyboard.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_mouse.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_quit.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\events\SDL_resize.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\file\SDL_rwops.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\joystick\SDL_joystick.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\joystick\win32\SDL_mmjoystick.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\loadso\win32\SDL_sysloadso.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\main\win32\SDL_win32_main.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\SDL.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\SDL_error.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\SDL_fatal.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_getenv.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_iconv.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_malloc.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_qsort.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_stdlib.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\stdlib\SDL_string.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\thread\SDL_thread.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\thread\win32\SDL_sysmutex.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\thread\win32\SDL_syssem.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\thread\win32\SDL_systhread.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\timer\SDL_timer.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\timer\win32\SDL_systimer.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_blit.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_blit_0.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_blit_1.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_blit_A.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_blit_N.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_bmp.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_cursor.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_gamma.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_pixels.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_RLEaccel.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_stretch.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_surface.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_video.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_yuv.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_yuv_mmx.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\SDL_yuv_sw.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\wincommon\SDL_sysevents.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\wincommon\SDL_sysmouse.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\wincommon\SDL_syswm.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\wincommon\SDL_wingl.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\windib\SDL_dibevents.c" />
+    <ClCompile Include="..\SDL-1.2.15\src\video\windib\SDL_dibvideo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SDL-1.2.15\src\audio\disk\SDL_diskaudio.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_audiodev_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_audiomem.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_audio_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_mixer_m68k.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_mixer_MMX.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_mixer_MMX_VC.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_sysaudio.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\SDL_wave.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\audio\windib\SDL_dibaudio.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\cdrom\SDL_syscdrom.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\events\SDL_events_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\events\SDL_sysevents.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\joystick\SDL_joystick_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\joystick\SDL_sysjoystick.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\SDL_error_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\SDL_fatal.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\thread\SDL_systhread.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\thread\SDL_thread_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\thread\win32\SDL_systhread_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\timer\SDL_systimer.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\timer\SDL_timer_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\blank_cursor.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\default_cursor.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\e_log.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\e_pow.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\e_sqrt.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\math_private.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\mmx.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_blit.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_cursor_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_glfuncs.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_leaks.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_pixels_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_RLEaccel_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_stretch_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_sysvideo.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_yuvfuncs.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\SDL_yuv_sw_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\wincommon\SDL_lowvideo.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\wincommon\SDL_sysmouse_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\wincommon\SDL_syswm_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\wincommon\SDL_wingl_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\wincommon\wmmsg.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\windib\SDL_dibevents_c.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\windib\SDL_dibvideo.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\windib\SDL_gapidibvideo.h" />
+    <ClInclude Include="..\SDL-1.2.15\src\video\windib\SDL_vkeys.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\SDL-1.2.15\src\main\win32\version.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>sdl</ProjectName>
+    <ProjectGuid>{81CE8DAF-EBB2-4761-8E45-B71ABCCA8C68}</ProjectGuid>
+    <RootNamespace>SDL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent />
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories);"$(DXSDK_DIR)\Include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <ExceptionHandling>false</ExceptionHandling>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;imm32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x86</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories);"$(DXSDK_DIR)\Include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;imm32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent />
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories);"$(DXSDK_DIR)\Include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+      <ExceptionHandling>false</ExceptionHandling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;imm32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x86</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories);"$(DXSDK_DIR)\Include";</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <ExceptionHandling>false</ExceptionHandling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;imm32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x64</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
