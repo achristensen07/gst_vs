@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF1687EC-9097-4A86-B7FB-C1ECF9E27EA4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>if exist ..\..\gst-libs\gst\interfaces\interfaces-marshal.c goto HEADER
+echo #include "interfaces-marshal.h" &gt;&gt; interfaces-marshal.c.tmp
+glib-genmarshal --body --prefix=gst_interfaces_marshal ..\..\gst-libs\gst\interfaces\interfaces-marshal.list &gt;&gt; interfaces-marshal.c.tmp
+move interfaces-marshal.c.tmp ..\..\gst-libs\gst\interfaces\interfaces-marshal.c
+:HEADER
+if exist ..\..\gst-libs\gst\interfaces\interfaces-marshal.h goto END
+echo #include "gst/gstconfig.h" &gt; interfaces-marshal.h.tmp
+glib-genmarshal --header --prefix=gst_interfaces_marshal ..\..\gst-libs\gst\interfaces\interfaces-marshal.list &gt;&gt; interfaces-marshal.h.tmp
+move interfaces-marshal.h.tmp ..\..\gst-libs\gst\interfaces\interfaces-marshal.h
+:END
+copy /y ..\common\interfaces-enumtypes.h ..\..\gst-libs\gst\interfaces
+copy /y ..\common\interfaces-enumtypes.c ..\..\gst-libs\gst\interfaces
+</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)gstreamer-1.2.1;$(SolutionDir)glib-2.38.0/glib;$(SolutionDir)glib-2.38.0;$(SolutionDir)gst-plugins-base-1.2.1\gst-libs;%(ProjectDir)../common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBGSTINTERFACES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libgstreamer-0.10.lib;glib-2.0.lib;gobject-2.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)libgstinterfaces-0.10.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)gstreamer-1.2.1/win32/vs8/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\common\libgstinterfaces.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)libgstinterfaces-0.10.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" c:\gstreamer\debug\bin</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>if exist ..\..\gst-libs\gst\interfaces\interfaces-marshal.c goto HEADER
+echo #include "interfaces-marshal.h" &gt;&gt; interfaces-marshal.c.tmp
+glib-genmarshal --body --prefix=gst_interfaces_marshal ..\..\gst-libs\gst\interfaces\interfaces-marshal.list &gt;&gt; interfaces-marshal.c.tmp
+move interfaces-marshal.c.tmp ..\..\gst-libs\gst\interfaces\interfaces-marshal.c
+:HEADER
+if exist ..\..\gst-libs\gst\interfaces\interfaces-marshal.h goto END
+echo #include "gst/gstconfig.h" &gt; interfaces-marshal.h.tmp
+glib-genmarshal --header --prefix=gst_interfaces_marshal ..\..\gst-libs\gst\interfaces\interfaces-marshal.list &gt;&gt; interfaces-marshal.h.tmp
+move interfaces-marshal.h.tmp ..\..\gst-libs\gst\interfaces\interfaces-marshal.h
+:END
+copy /y ..\common\interfaces-enumtypes.h ..\..\gst-libs\gst\interfaces
+copy /y ..\common\interfaces-enumtypes.c ..\..\gst-libs\gst\interfaces
+</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)gstreamer-1.2.1;$(SolutionDir)glib-2.38.0/glib;$(SolutionDir)glib-2.38.0;$(SolutionDir)gst-plugins-base-1.2.1\gst-libs;%(ProjectDir)../common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBGSTINTERFACES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libgstreamer-0.10.lib;glib-2.0.lib;gobject-2.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)libgstinterfaces-0.10.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>..\common\libgstinterfaces.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)libgstinterfaces-0.10.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" c:\gstreamer\bin</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\colorbalance.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\colorbalancechannel.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\interfaces-enumtypes.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\interfaces-marshal.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\mixer.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\mixeroptions.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\mixertrack.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\navigation.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\propertyprobe.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\tuner.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\tunerchannel.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\tunernorm.c" />
+    <ClCompile Include="..\..\gst-libs\gst\interfaces\xoverlay.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\libgstinterfaces.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
