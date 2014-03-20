@@ -159,7 +159,7 @@
 /* #undef HAVE_GMP */
 
 /* Define to 1 if you have the `gmtime_r' function. */
-#define HAVE_GMTIME_R 1
+/* #undef HAVE_GMTIME_R */
 
 /* Have GSL library */
 /* #undef HAVE_GSL */
@@ -311,10 +311,10 @@
 /* #undef HAVE_VALGRIND_VALGRIND_H */
 
 /* Defined if compiling for Windows */
-/* #undef HAVE_WIN32 */
+#define HAVE_WIN32 1
 
 /* Define to 1 if you have the <winsock2.h> header file. */
-/* #undef HAVE_WINSOCK2_H */
+#define HAVE_WINSOCK2_H 1
 
 /* the host CPU */
 #define HOST_CPU "i686"
