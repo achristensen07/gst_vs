@@ -80,6 +80,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1\libs;$(ProjectDir)..\gst-plugins-base-1.2.1\gst-libs;$(ProjectDir)..\gst-libav-1.2.1;$(ProjectDir)..\gst-libav-1.2.1\gst-libs\ext\libav;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\gst-plugins-base-1.2.1\win32\common;$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -97,6 +98,7 @@
       <PreprocessorDefinitions>HAVE_ISINF=1;HAVE_ISNAN=1;AVCONV_DATADIR="";GST_EXPORTS;HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1\libs;$(ProjectDir)..\gst-plugins-base-1.2.1\gst-libs;$(ProjectDir)..\gst-libav-1.2.1;$(ProjectDir)..\gst-libav-1.2.1\gst-libs\ext\libav;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\gst-plugins-base-1.2.1\win32\common;$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\SDL-1.2.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

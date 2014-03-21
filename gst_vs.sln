@@ -15,6 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libintl", "gst_vs.vcxproj\l
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsoup", "gst_vs.vcxproj\libsoup.vcxproj", "{D9376B58-246D-42F6-A109-EEEAAEFCD359}"
 	ProjectSection(ProjectDependencies) = postProject
+		{4E12C248-23D7-45D4-ACF9-3593EF7236BE} = {4E12C248-23D7-45D4-ACF9-3593EF7236BE}
 		{4EC89764-8501-41FA-97DC-84566EA831A2} = {4EC89764-8501-41FA-97DC-84566EA831A2}
 	EndProjectSection
 EndProject

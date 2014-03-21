@@ -66,6 +66,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -83,6 +84,7 @@
       <PreprocessorDefinitions>DLL_EXPORT;HAVE_CONFIG;PCRE_STATIC;LIBDIR;LINK_SIZE=2;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTVS_EXPORTS;GLIB_COMPILATION;GOBJECT_COMPILATION;GIO_COMPILATION;G_DIR_SEPARATOR_S="\\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\glib-2.38.0\gio;$(ProjectDir)..\glib-2.38.0\build\win32\dirent;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\proxy-libintl-dev\include;$(ProjectDir)..\zlib-1.2.8;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

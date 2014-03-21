@@ -211,6 +211,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -228,6 +229,7 @@
       <PreprocessorDefinitions>GST_EXPORTS;HAVE_CONFIG_H;WIN32;_DEBUG;_WINDOWS;_USRDLL;GSTREAMER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\gstreamer-1.2.1;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\proxy-libintl-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

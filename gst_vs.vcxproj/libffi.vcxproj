@@ -80,6 +80,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>FFI_BUILDING;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -97,6 +98,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>FFI_BUILDING;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\libffi-3.0.13;$(ProjectDir)..\libffi-3.0.13\include;$(ProjectDir)..\libffi-3.0.13\src\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
